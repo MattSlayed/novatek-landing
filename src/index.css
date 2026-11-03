@@ -1,0 +1,162 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+/* Typefaces: self-hosted in public/fonts, never from a font CDN. */
+@font-face { font-family: "Michroma"; src: url("/fonts/Michroma-Regular.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Hanken Grotesk"; src: url("/fonts/HankenGrotesk-Variable.woff2") format("woff2-variations"); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Martian Mono"; src: url("/fonts/MartianMono-Variable.woff2") format("woff2-variations"); font-weight: 100 800; font-display: swap; }
+@font-face { font-family: "EB Garamond"; src: url("/fonts/eb-garamond-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "EB Garamond"; src: url("/fonts/eb-garamond-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "EB Garamond"; src: url("/fonts/eb-garamond-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "EB Garamond"; src: url("/fonts/eb-garamond-latin-500-italic.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-display: "Michroma", "Segoe UI", system-ui, sans-serif;
+  --font-heading: var(--font-display);
+  --font-sans: "Hanken Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "Martian Mono", ui-monospace, "Cascadia Mono", monospace;
+  --font-serif: "EB Garamond", Georgia, "Times New Roman", serif;
+
+  --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
+  --color-cobalt: var(--cobalt);
+  --color-charcoal: var(--charcoal);
+  --color-mist: var(--mist);
+  --color-paper: var(--paper);
+  --color-paper-edge: var(--paper-edge);
+  --color-tint: var(--tint);
+  --color-glow: var(--glow);
+
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  /* NOVATEK brand. Never pure black. */
+  --navy: #1e3a5f;
+  --navy-deep: #152c4a;
+  --cobalt: #2563eb;
+  --charcoal: #334155;
+  --mist: #f1f5f9;
+  --white: #ffffff;
+  /* Archival paper: brand mist, warmed a step. Not cream. */
+  --paper: #f2f0eb;
+  --paper-edge: #d9d5cb;
+  /* Secondary text on navy: tinted from the hue, never grey. */
+  --tint: #c5d5ee;
+  --glow: rgba(37, 99, 235, 0.55);
+  --gradient: linear-gradient(135deg, var(--navy) 0%, var(--cobalt) 100%);
+
+  /* shadcn tokens mapped onto the brand */
+  --background: var(--white);
+  --foreground: var(--charcoal);
+  --card: var(--white);
+  --card-foreground: var(--charcoal);
+  --popover: var(--white);
+  --popover-foreground: var(--charcoal);
+  --primary: var(--cobalt);
+  --primary-foreground: var(--white);
+  --secondary: var(--navy);
+  --secondary-foreground: var(--white);
+  --muted: var(--mist);
+  --muted-foreground: #4b5a73;
+  --accent: var(--mist);
+  --accent-foreground: var(--navy);
+  --destructive: #b42318;
+  --border: #cfd8e6;
+  --input: #cfd8e6;
+  --ring: var(--cobalt);
+  --chart-1: var(--cobalt);
+  --chart-2: var(--navy);
+  --chart-3: #4b5a73;
+  --chart-4: #8aa3cc;
+  --chart-5: var(--tint);
+  --radius: 2px;
+  --sidebar: var(--mist);
+  --sidebar-foreground: var(--charcoal);
+  --sidebar-primary: var(--cobalt);
+  --sidebar-primary-foreground: var(--white);
+  --sidebar-accent: var(--white);
+  --sidebar-accent-foreground: var(--navy);
+  --sidebar-border: #cfd8e6;
+  --sidebar-ring: var(--cobalt);
+
+  /* Shadows are navy-tinted, with an offset and a soft blur. */
+  --shadow-navy: 0 10px 24px -8px rgba(30, 58, 95, 0.28), 0 2px 6px -2px rgba(30, 58, 95, 0.18);
+}
+
+/* The HUD layer: dark navy regions. Tokens flip for shadcn parts placed on it. */
+.hud {
+  --background: var(--navy-deep);
+  --foreground: var(--white);
+  --card: var(--navy);
+  --card-foreground: var(--white);
+  --popover: var(--navy);
+  --popover-foreground: var(--white);
+  --muted: var(--navy);
+  --muted-foreground: var(--tint);
+  --accent: var(--navy);
+  --accent-foreground: var(--white);
+  --border: rgba(197, 213, 238, 0.28);
+  --input: rgba(197, 213, 238, 0.28);
+  --secondary: var(--white);
+  --secondary-foreground: var(--navy);
+  color-scheme: dark;
+}
+
+@layer base {
+  * { @apply border-border outline-ring/50; }
+  html { @apply font-sans; -webkit-text-size-adjust: 100%; font-synthesis: none; scroll-behavior: smooth; }
+  body { @apply bg-background text-foreground; margin: 0; font-size: 1.0625rem; line-height: 1.55; font-weight: 400; }
+  button:not(:disabled), [role="button"]:not(:disabled) { cursor: pointer; }
+  ::selection { background: var(--navy); color: var(--white); }
+  .hud ::selection { background: var(--white); color: var(--navy); }
+  html { caret-color: var(--cobalt); scrollbar-color: var(--navy) var(--mist); }
+  h1, h2, h3 { @apply font-display; font-weight: 400; text-wrap: balance; }
+  strong { font-weight: 600; }
+  a { text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+  .tabular { font-variant-numeric: tabular-nums; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  }
+}

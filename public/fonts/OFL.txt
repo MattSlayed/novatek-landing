@@ -1,11 +1,12 @@
 NOVATEK LLC — Brand-Assets/Fonts
 ================================
-All eight typefaces below are licensed under the SIL Open Font License 1.1.
+All typefaces below are licensed under the SIL Open Font License 1.1.
 Downloaded from the Google Fonts project (github.com/google/fonts): the first three on 2026-11-03, the rest on 2026-08-14.
 
   Michroma-Regular             — display  (guidelines §3, current)
   HankenGrotesk-Variable       — body     (guidelines §3, current)
   MartianMono-Variable         — mono     (guidelines §3, current)
+  eb-garamond-latin-400/500 normal and italic — serif, for historical quotes and context (added 2026-11-03 from the @fontsource/eb-garamond npm package; Copyright 2017 The EB Garamond Project Authors, https://github.com/octaviopardo/EBGaramond12)
   BricolageGrotesque-Variable  — retired display
   Outfit-Variable              — retired body
   JetBrainsMono-Variable       — retired mono
