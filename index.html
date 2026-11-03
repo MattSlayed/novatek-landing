@@ -3,65 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- design draft: keeps it out of search results so it cannot compete with novatekllc.co.za -->
+<!-- design draft: kept out of search results -->
 <meta name="robots" content="noindex">
-<title>NOVATEK: The next industrial era. Human-led. AI-amplified.</title>
-<meta name="description" content="AI, operations intelligence and reliability engineering for the industries that keep countries running: power, mining, heavy engineering and water.">
+<title>Future Past: same human, new tool</title>
+<meta name="description" content="Tools change every decade. The people holding them do not. A hybrid-intelligence method: agents read and propose, a named human diagnoses and decides.">
+<meta name="theme-color" content="#11161d">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="preload" href="fonts/Michroma-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<style>
-@font-face { font-family: 'Michroma'; src: url('fonts/Michroma-Regular.woff2') format('woff2'); font-weight: 400; font-display: swap; }
-@font-face { font-family: 'Hanken Grotesk'; src: url('fonts/HankenGrotesk-Variable.woff2') format('woff2-variations'); font-weight: 100 900; font-display: swap; }
-
-:root {
-  --navy: #1e3a5f;
-  --navy-dark: #152c4a;
-  --cobalt: #2563eb;
-  --charcoal: #334155;
-  --white: #ffffff;
-  --gutter: clamp(20px, 4vw, 48px);
-  --gradient: linear-gradient(135deg, var(--navy) 0%, var(--cobalt) 100%);
-  --font-display: 'Michroma', 'Segoe UI', system-ui, sans-serif;
-  --font-body: 'Hanken Grotesk', 'Segoe UI', system-ui, sans-serif;
-}
-
-* { box-sizing: border-box; }
-html { font-synthesis: none; -webkit-text-size-adjust: 100%; }
-body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; background: var(--white); color: var(--charcoal); font-family: var(--font-body); }
-::selection { background: var(--navy); color: var(--white); }
-a:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 3px; }
-
-.band { background: var(--gradient); padding: 26px var(--gutter); }
-.brand { display: inline-flex; align-items: center; gap: 12px; color: var(--white); text-decoration: none; }
-.brand svg { display: block; width: 40px; height: 44px; }
-.brand span { font-family: var(--font-display); font-size: 15px; letter-spacing: 0.04em; }
-.band a:focus-visible { outline-color: var(--white); }
-
-main { position: relative; flex: 1; overflow: hidden; padding: clamp(40px, 7vw, 72px) var(--gutter); }
-h1 { margin: 0; max-width: 18ch; font-family: var(--font-display); font-weight: 400; font-size: clamp(30px, 4.6vw, 64px); line-height: 1.22; color: var(--navy); }
-p { margin: 24px 0 0; max-width: 60ch; font-size: clamp(17px, 1.4vw, 20px); line-height: 1.55; }
-.action { display: inline-flex; align-items: center; min-height: 48px; margin-top: 32px; padding: 0 28px; background: var(--cobalt); color: var(--white); font-weight: 500; text-decoration: none; border-radius: 2px; transition: transform .3s, background-color .3s; }
-.action:hover { background: var(--navy); transform: translateY(-2px); }
-
-@media (prefers-reduced-motion: reduce) { .action { transition: none; } .action:hover { transform: none; } }
-</style>
+<link rel="preload" href="fonts/exo-2-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 <body>
-<header class="band">
-  <a class="brand" href="https://www.novatekllc.co.za">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 88" aria-hidden="true">
-      <path d="M 12 76 L 12 16 L 60 76 L 60 12" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M 60 12 L 70 5" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
-      <circle cx="12" cy="76" r="5" fill="#ffffff"/><circle cx="12" cy="16" r="4" fill="#ffffff"/>
-      <circle cx="60" cy="76" r="5" fill="#ffffff"/><circle cx="70" cy="5" r="3.5" fill="#ffffff"/>
-    </svg>
-    <span>NOVATEK</span>
-  </a>
-</header>
-<main>
-  <h1>The next industrial era. Human-led. AI-amplified.</h1>
-  <p>AI, operations intelligence and reliability engineering for the industries that keep countries running: power, mining, heavy engineering and water.</p>
-  <a class="action" href="https://www.novatekllc.co.za">See proven outcomes</a>
-</main>
+<div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
 </body>
 </html>

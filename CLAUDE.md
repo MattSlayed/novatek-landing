@@ -4,7 +4,18 @@ A landing page design for NOVATEK LLC, a South African consultancy in AI, operat
 
 Pushing to `main` publishes to GitHub Pages straight away, and this repository is public. Keep anything confidential out of it, and work on a branch unless Matthew says to publish.
 
-## Brand rules
+## This branch: "Future Past", brand-free
+
+On 2026-11-03 Matthew asked for a second, greenfield page from the same brief (the temporal anthropologist: the past as a diagnostic tool for the present, humanity before technology, a dark digital interface cut into tactile history, a futurist geometric sans paired with a sharp serif), **without the NOVATEK brand**: no N logo, no navy/cobalt, no Michroma set, no company facts. By `AGENTS.md`'s order (Matthew's latest instruction first) that overrides the brand rules below for this branch only; they still hold on `main` and on `claude/dazzling-ptolemy-g1795t`.
+
+- **Masthead:** "Future Past", a placeholder name until Matthew gives one.
+- **Colours:** ground `#11161d` (never pure black), parchment ink `#ece6d8`, one accent, the rubric red of a manuscript `#ef3d52`; paper fields `#ece6d8` with ink `#141a21`. Cyan was avoided on purpose.
+- **Typefaces, self-hosted in `public/fonts/`, SIL OFL:** Exo 2 (variable) for everything in the present tense, Cormorant Garamond 500/600 for the historical record only. Never from a font CDN.
+- **Stack:** Vite + React + TypeScript, Tailwind v4, shadcn/ui. `npm install`, `npm run dev`, `npm run build`, `npm run preview` (serves `/novatek-landing/`). `.github/workflows/pages.yml` publishes `dist/` from `main`; the repository's Pages source must be "GitHub Actions".
+- **Copy** lives in `src/content.ts`: thesis and method only, no clients, numbers or services. Historical facts carry sources and need Matthew's confirmation. **Pictures** in `src/pictures.ts` are CC0 from The Metropolitan Museum of Art, approved by Matthew, credited on the page.
+- **Direction:** taste dealt "Type and nothing else"; the brief forced two recorded departures (the type pairing and the palette).
+
+## Brand rules (not applied on this branch)
 
 - **Name:** NOVATEK, always uppercase. It is not a registered trademark, so never add ® or ™.
 - **Logo:** the original N in `favicon.svg` and `index.html`. Keep it exactly as drawn: no redrawing, rotating or effects, and no removing its nodes or arrow. Use white on navy or the gradient, and the gradient version on white.
@@ -39,3 +50,4 @@ Pushing to `main` publishes to GitHub Pages straight away, and this repository i
 - Look at it at 1440, 768 and 390 pixels wide.
 - Text contrast of at least 4.5:1, with visible keyboard focus and reduced motion respected.
 - No ® or ™, no pure black, and the fonts load from `fonts/`.
+- Taste lint is clean on the page's own files (not `src/components/ui/`), and `inspect.mjs` on the preview URL passes with no `--allow`.

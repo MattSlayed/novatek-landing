@@ -1,0 +1,191 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+/* Two faces, self-hosted (public/fonts, SIL OFL): a futurist geometric sans for
+   the present tense, a sharp Renaissance serif for the record. */
+@font-face { font-family: "Exo 2"; src: url("/fonts/exo-2-latin-wght-normal.woff2") format("woff2-variations"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Exo 2"; src: url("/fonts/exo-2-latin-wght-italic.woff2") format("woff2-variations"); font-weight: 100 900; font-style: italic; font-display: swap; }
+@font-face { font-family: "Cormorant Garamond"; src: url("/fonts/cormorant-garamond-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cormorant Garamond"; src: url("/fonts/cormorant-garamond-latin-500-italic.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Cormorant Garamond"; src: url("/fonts/cormorant-garamond-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cormorant Garamond"; src: url("/fonts/cormorant-garamond-latin-600-italic.woff2") format("woff2"); font-weight: 600; font-style: italic; font-display: swap; }
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: "Exo 2", "Segoe UI", system-ui, sans-serif;
+  --font-heading: var(--font-sans);
+  --font-serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+
+  --color-ground: var(--ground);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-rubric: var(--rubric);
+  --color-rubric-glow: var(--rubric-glow);
+  --color-paper: var(--paper);
+  --color-paper-ink: var(--paper-ink);
+  --color-paper-muted: var(--paper-muted);
+
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --color-sidebar-ring: var(--ring);
+  --color-sidebar-border: var(--border);
+  --color-sidebar-accent-foreground: var(--accent-foreground);
+  --color-sidebar-accent: var(--accent);
+  --color-sidebar-primary-foreground: var(--primary-foreground);
+  --color-sidebar-primary: var(--primary);
+  --color-sidebar-foreground: var(--foreground);
+  --color-sidebar: var(--background);
+  --color-chart-1: var(--rubric);
+  --color-chart-2: var(--ink);
+  --color-chart-3: var(--ink-muted);
+  --color-chart-4: var(--paper);
+  --color-chart-5: var(--surface);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  --text-small: clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+  --text-body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  --text-lead: clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem);
+  --text-head: clamp(2rem, 1.3rem + 3.2vw, 4rem);
+}
+
+:root {
+  /* The page's own material: a dark interface ground, never pure black;
+     parchment as the ink on it; one accent, the rubric red of a manuscript. */
+  --ground: #11161d;
+  --surface: #171e27;
+  --ink: #ece6d8;
+  --ink-muted: #c9c2b2;
+  /* Rubric red for text and fields passes 4.5:1 on paper and under parchment; the brighter red is for the one glowing line only. */
+  --rubric: #b9202e;
+  --rubric-glow: #ef3d52;
+  --paper: #ece6d8;
+  --paper-ink: #141a21;
+  --paper-muted: #4a5260;
+  --radius: 0px;
+
+  /* shadcn tokens on the dark ground */
+  --background: var(--ground);
+  --foreground: var(--ink);
+  --card: var(--surface);
+  --card-foreground: var(--ink);
+  --popover: var(--surface);
+  --popover-foreground: var(--ink);
+  --primary: var(--ink);
+  --primary-foreground: var(--ground);
+  --secondary: var(--surface);
+  --secondary-foreground: var(--ink);
+  --muted: var(--surface);
+  --muted-foreground: var(--ink-muted);
+  --accent: var(--surface);
+  --accent-foreground: var(--ink);
+  --destructive: var(--rubric);
+  --border: rgba(236, 230, 216, 0.22);
+  --input: rgba(236, 230, 216, 0.22);
+  --ring: var(--rubric);
+  color-scheme: dark;
+}
+
+/* Paper fields: the record, inverted. */
+.paper {
+  --background: var(--paper);
+  --foreground: var(--paper-ink);
+  --card: #f4efe3;
+  --card-foreground: var(--paper-ink);
+  --popover: #f4efe3;
+  --popover-foreground: var(--paper-ink);
+  --primary: var(--paper-ink);
+  --primary-foreground: var(--paper);
+  --secondary: #e2dbcb;
+  --secondary-foreground: var(--paper-ink);
+  --muted: #e2dbcb;
+  --muted-foreground: var(--paper-muted);
+  --accent: #e2dbcb;
+  --accent-foreground: var(--paper-ink);
+  --border: rgba(20, 26, 33, 0.25);
+  --input: rgba(20, 26, 33, 0.25);
+  color-scheme: light;
+  background-color: var(--paper);
+  color: var(--paper-ink);
+}
+
+@layer base {
+  * { @apply border-border outline-ring/50; }
+  html { @apply font-sans; -webkit-text-size-adjust: 100%; font-synthesis: none; scroll-behavior: smooth; caret-color: var(--rubric-glow); scrollbar-color: var(--ink-muted) var(--ground); }
+  body { @apply bg-background text-foreground; margin: 0; font-size: var(--text-body); line-height: 1.5; letter-spacing: -0.005em; }
+  button:not(:disabled), [role="button"]:not(:disabled) { cursor: pointer; }
+  ::selection { background: var(--rubric-glow); color: var(--ground); }
+  h1, h2, h3 { font-weight: 600; letter-spacing: -0.04em; line-height: 0.95; text-wrap: balance; }
+  a { text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+  .serif { font-family: var(--font-serif); letter-spacing: 0; }
+  .tabular { font-variant-numeric: tabular-nums; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+/* Entrances: rise and fade once, staggered by order. */
+.reveal > * { opacity: 0; transform: translateY(12px); transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1); }
+.reveal[data-reveal="in"] > * { opacity: 1; transform: none; }
+.reveal > :nth-child(2) { transition-delay: calc(var(--stagger) * 1); }
+.reveal > :nth-child(3) { transition-delay: calc(var(--stagger) * 2); }
+.reveal > :nth-child(4) { transition-delay: calc(var(--stagger) * 3); }
+.reveal > :nth-child(5) { transition-delay: calc(var(--stagger) * 4); }
+.reveal > :nth-child(n + 6) { transition-delay: calc(var(--stagger) * 5); }
+
+/* The name as real text, sized from the viewport so it spans the margins on one line. */
+.hero-name { font-size: 18.6vw; line-height: 0.9; letter-spacing: -0.045em; white-space: nowrap; text-align: center; }
+@media (max-width: 767px) { .hero-name { font-size: 17.6vw; } }
+/* The signature move: the name scales down a few percent as the first screen leaves. */
+@supports (animation-timeline: view()) {
+  .hero-name { animation: name-settle linear both; animation-timeline: view(); animation-range: exit 0% exit 100%; transform-origin: 50% 50%; }
+  @keyframes name-settle { to { transform: scale(0.94); } }
+}
+/* The slip: a paper itinerary with a zigzag cut along its bottom edge, and dotted leaders. */
+.slip { clip-path: polygon(0 0, 100% 0, 100% calc(100% - 12px), 97.5% 100%, 95% calc(100% - 12px), 92.5% 100%, 90% calc(100% - 12px), 87.5% 100%, 85% calc(100% - 12px), 82.5% 100%, 80% calc(100% - 12px), 77.5% 100%, 75% calc(100% - 12px), 72.5% 100%, 70% calc(100% - 12px), 67.5% 100%, 65% calc(100% - 12px), 62.5% 100%, 60% calc(100% - 12px), 57.5% 100%, 55% calc(100% - 12px), 52.5% 100%, 50% calc(100% - 12px), 47.5% 100%, 45% calc(100% - 12px), 42.5% 100%, 40% calc(100% - 12px), 37.5% 100%, 35% calc(100% - 12px), 32.5% 100%, 30% calc(100% - 12px), 27.5% 100%, 25% calc(100% - 12px), 22.5% 100%, 20% calc(100% - 12px), 17.5% 100%, 15% calc(100% - 12px), 12.5% 100%, 10% calc(100% - 12px), 7.5% 100%, 5% calc(100% - 12px), 2.5% 100%, 0 calc(100% - 12px)); }
+.leader { background-image: radial-gradient(circle, var(--paper-muted) 1.6px, transparent 1.8px); background-size: 8px 8px; background-position: 0 70%; background-repeat: repeat-x; height: 8px; align-self: center; opacity: 0.7; } /* taste-skill-ignore: dotted leader of the itinerary blueprint */
+.result { transition: background-color 0.4s, color 0.4s; }
+/* The band: a crimson line reads the print once, top to bottom, as it enters. */
+.band-line { background: var(--rubric-glow); box-shadow: 0 0 14px 2px rgba(239, 61, 82, 0.55); opacity: 0; } /* taste-skill-ignore: the one glowing line the brief asks for */
+.band.is-read .band-line { animation: band-read 1.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s 1 both; }
+@keyframes band-read { 0% { transform: translateY(0); opacity: 0.9; } 100% { transform: translateY(min(92svh, 100cqh)); opacity: 0; } }
+.band { container-type: size; }
+/* Specimens: two giant figures, cut by the section's bottom edge. */
+.specimen-figure { font-size: clamp(120px, 18vw, 260px); transition: letter-spacing 0.3s; }
+@media (max-width: 767px) { .specimen-figure { font-size: 40vw; } .specimens { height: auto; } .specimen { height: 38svh; overflow: hidden; align-content: flex-start; } .specimen:last-child { background: var(--ink); color: var(--ground); margin: 0 -16px; padding: 0 16px; } .specimen:last-child .specimen-figure, .specimen:last-child p { color: var(--ground); } }
+/* The close: field and verb swap on hover and focus, instantly. */
+.cta:hover, .cta:focus-visible { background: var(--ink); color: var(--rubric); }
+.cta:focus-visible { outline: 3px solid var(--rubric-glow); outline-offset: -6px; }
+/* Footer name: cropped along its bottom by the field. */
+.footer-name { margin-bottom: -0.06em; line-height: 0; clip-path: inset(0 0 8% 0); }
+@media (prefers-reduced-motion: reduce) {
+  .reveal > * { opacity: 1; transform: none; transition: none; }
+  .hero-name { animation: none; }
+  .band.is-read .band-line { animation: none; }
+  .result { transition: none; }
+}
