@@ -30,11 +30,9 @@ Pushing to `main` publishes to GitHub Pages straight away, and this repository i
 
 ## Design skills
 
-`.claude/skills/` holds impeccable and taste (`design-taste-frontend`), and Matthew wants both used.
+`.claude/skills/` holds impeccable and taste (`design-taste-frontend`), and Matthew wants both used. `AGENTS.md` manages them, and each skill folder has its own `AGENTS.md`:
 
-- Matthew's brief, the brand rules above and the gradient and thin lines they chose outrank a skill's bans.
-- Do not run impeccable's launcher (`scripts/impeccable`). It downloads a separate program, which Matthew has not approved. Use the skill's "Launcher unavailable" path.
-- Taste's `scripts/assets.mjs` searches open image collections. Tell Matthew about any picture it finds and its credit before using it.
+@AGENTS.md
 
 ## Checks before calling a version done
 
