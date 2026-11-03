@@ -18,7 +18,7 @@ Use both on any design work in this repository.
 1. Start from Matthew's description of what they want.
 2. Use impeccable to shape the design and the quality floor. Read its `reference/craft-floor.md` before editing the page.
 3. Use taste's rules while building the page, then its `lint.mjs`, `inspect.mjs` and `references/critique.md` to check the result.
-4. Look at the rendered page at 1440, 768 and 390 pixels wide, and fix what you see.
+4. Look at the rendered page at 1440, 768 and 390 pixels wide, and fix what you see. The page is built with Vite: `npm run build && npm run preview`, then point `inspect.mjs` at `http://localhost:4173/novatek-landing/` and lint `src/` (not `src/components/ui/`, which is shadcn's output).
 
 ## When sources disagree
 
