@@ -1,4 +1,4 @@
-import { useMemo } from "react"
+import { useMemo, useRef, useState } from "react"
 import { cn } from "@/lib/utils"
 import { Stamp } from "@/components/Stamp"
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card"
@@ -16,9 +16,10 @@ function mulberry32(seed: number) {
 }
 
 /**
- * A picture with the page's one treatment: the right part of the canvas is
- * read as a low-poly wireframe in cobalt, scan lines cross it, and a mono
- * stamp gives the real catalogue entry. The sweep runs once on load.
+ * A picture with the page's one treatment: part of the canvas is read as a
+ * low-poly wireframe in cobalt, scan lines cross it, and a mono stamp gives
+ * the real catalogue entry. The sweep runs on load and again when the pointer
+ * enters; the wireframe lights up around the pointer.
  */
 export function Scanned({
   picture,
@@ -39,6 +40,8 @@ export function Scanned({
   cover?: "right" | "left" | "bottom"
   sizes?: string
 }) {
+  const ref = useRef<HTMLElement>(null)
+  const [sweep, setSweep] = useState(0)
   const mesh = useMemo(() => {
     const rnd = mulberry32(seed)
     const cols = 7
@@ -67,8 +70,25 @@ export function Scanned({
     return { d: lines.join(""), nodes }
   }, [seed])
 
+  const onMove = (e: React.PointerEvent) => {
+    const el = ref.current
+    if (!el) return
+    const r = el.getBoundingClientRect()
+    el.style.setProperty("--mx", `${e.clientX - r.left}px`)
+    el.style.setProperty("--my", `${e.clientY - r.top}px`)
+    el.style.setProperty("--lit", "1")
+  }
+  const onLeave = () => ref.current?.style.setProperty("--lit", "0")
+
   return (
-    <figure className={cn("scanned group relative m-0 overflow-hidden bg-navy", shutter && "scanned-shutter", className)} data-cover={cover}>
+    <figure
+      ref={ref}
+      onPointerMove={onMove}
+      onPointerEnter={() => setSweep((n) => n + 1)}
+      onPointerLeave={onLeave}
+      className={cn("scanned group relative m-0 overflow-hidden bg-navy", shutter && "scanned-shutter", className)}
+      data-cover={cover}
+    >
       <img
         src={picture.src}
         alt={picture.alt}
@@ -86,20 +106,26 @@ export function Scanned({
           <path key={i} d={`M${x} ${y}h0.001`} stroke="#ffffff" strokeWidth="4" strokeLinecap="round" vectorEffect="non-scaling-stroke" />
         ))}
       </svg>
+      <svg className="scanned-lit pointer-events-none absolute inset-0 h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <path d={mesh.d} fill="none" stroke="#ffffff" strokeWidth="1.2" vectorEffect="non-scaling-stroke" />
+        {mesh.nodes.map(([x, y], i) => (
+          <path key={i} d={`M${x} ${y}h0.001`} stroke="#ffffff" strokeWidth="6" strokeLinecap="round" vectorEffect="non-scaling-stroke" />
+        ))}
+      </svg>
       <span className="scanned-lines pointer-events-none absolute inset-0" aria-hidden="true" />
-      <span className="scanned-sweep pointer-events-none absolute inset-x-0 top-0 h-[18%]" aria-hidden="true" />
+      <span key={sweep} className="scanned-sweep pointer-events-none absolute inset-x-0 top-0 h-[18%]" aria-hidden="true" />
       {stamp ? (
-        <figcaption className="absolute bottom-0 left-0 right-0 flex flex-wrap items-end justify-between gap-2 p-4">
+        <figcaption className="absolute right-0 bottom-0 left-0 flex flex-wrap items-end justify-between gap-2 p-4">
           <HoverCard openDelay={120}>
             <HoverCardTrigger asChild>
               <button type="button" className="rounded-[2px] bg-navy-deep/85 px-2.5 py-1.5 text-left text-white outline-none focus-visible:ring-3 focus-visible:ring-white/70">
-                <Stamp>{picture.artist} · {picture.year} · {picture.medium}</Stamp>
+                <Stamp>{picture.artist} · {picture.year}</Stamp>
               </button>
             </HoverCardTrigger>
             <HoverCardContent align="start" className="w-80 font-serif text-[17px] leading-snug">
               <p className="m-0 font-medium">{picture.title}</p>
-              <p className="m-0 mt-1 text-muted-foreground">{picture.credit}</p>
-              <a href={picture.source} className="mt-2 inline-block font-sans text-sm text-cobalt underline" target="_blank" rel="noreferrer">Catalogue entry</a>
+              <p className="m-0 mt-1 text-muted-foreground">{picture.medium}. {picture.credit}</p>
+              <a href={picture.source} className="mt-2 inline-block font-sans text-[15px] text-cobalt underline" target="_blank" rel="noreferrer">Catalogue entry</a>
             </HoverCardContent>
           </HoverCard>
         </figcaption>

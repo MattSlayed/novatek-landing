@@ -1,5 +1,6 @@
 import { ArrowRightIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { Clock } from "@/components/Clock"
 import { RoutedLines } from "@/components/RoutedLines"
 import { Scanned } from "@/components/Scanned"
 import { Stamp } from "@/components/Stamp"
@@ -20,7 +21,7 @@ export function Hero() {
 
       {/* Name tile */}
       <div className="tile paper name-tile relative col-span-12 flex min-h-[32svh] flex-col justify-between p-5 md:col-span-6 md:row-span-1 md:min-h-0 md:p-6">
-        <Stamp className="relative z-[1] text-charcoal">Johannesburg · 26.20° S, 28.05° E · SAST</Stamp>
+        <Clock className="relative z-[1] m-0 text-charcoal" />
         <h1 id="name" className="name relative z-[1] m-0 font-display font-normal leading-none tracking-[0.04em] text-navy">
           <span className="text-navy">NOVA</span><span className="text-cobalt">TEK</span>
           <span className="sr-only">: {slogan}</span>
@@ -44,15 +45,12 @@ export function Hero() {
       {/* Accent tile: the offer and the action */}
       <div className="tile hud col-span-6 flex flex-col justify-between bg-cobalt p-4 text-white md:col-span-3 md:p-6">
         <p className="relative z-[1] m-0 text-[clamp(15px,1.35vw,19px)] leading-[1.35] font-medium">{hero.description}</p>
-        <div className="relative z-[1] mt-6 flex flex-col gap-3">
-          <p className="m-0 hidden text-[15px] leading-snug text-white/92 md:block">{hero.amplified}</p>
-          <Button asChild size="xl" className="h-auto min-h-12 w-fit max-w-full justify-start gap-2 rounded-[2px] bg-white py-3 text-left whitespace-normal text-navy hover:bg-mist focus-visible:ring-white/70">
-            <a href={hero.primary.href}>
-              {hero.primary.label}
-              <ArrowRightIcon data-icon="inline-end" />
-            </a>
-          </Button>
-        </div>
+        <Button asChild size="xl" className="relative z-[1] mt-6 h-auto min-h-12 w-fit max-w-full justify-start gap-2 rounded-[2px] bg-white py-3 text-left whitespace-normal text-navy hover:bg-mist focus-visible:ring-white/70">
+          <a href={hero.primary.href}>
+            {hero.primary.label}
+            <ArrowRightIcon data-icon="inline-end" />
+          </a>
+        </Button>
       </div>
 
       <RoutedLines

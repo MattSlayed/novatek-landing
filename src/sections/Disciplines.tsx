@@ -1,4 +1,5 @@
 import { ArrowRightIcon } from "lucide-react"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Button } from "@/components/ui/button"
 import { Reveal } from "@/components/Reveal"
 import { RoutedLines } from "@/components/RoutedLines"
@@ -6,9 +7,9 @@ import { disciplines } from "@/content"
 import { cn } from "@/lib/utils"
 
 /**
- * Features: a statement tile on paper beside a dark tile of rows. The heading
- * zigzags, first line left and second line right; the rows alternate two navy
- * tones and never use lines.
+ * Features: a statement tile on paper beside a dark tile of six rows. Rows
+ * show their title only; one opens at a time. The heading zigzags, first
+ * line left and second line right; the rows alternate two navy tones.
  */
 export function Disciplines() {
   return (
@@ -39,18 +40,26 @@ export function Disciplines() {
           </Button>
         </div>
       </Reveal>
-      <Reveal as="ul" className="tile hud m-0 flex list-none flex-col overflow-hidden p-0 text-white" stagger={50}>
-        {disciplines.rows.map((row, i) => (
-          <li key={row.title} className={cn("grid flex-1 grid-cols-1 gap-x-6 gap-y-2 p-5 md:p-7 lg:grid-cols-12", i % 2 === 0 ? "bg-navy-deep" : "bg-navy")}>
-            <h3 className="col-span-12 m-0 font-display text-[17px] leading-[1.3] lg:col-span-5">{row.title}</h3>
-            <p className="col-span-12 m-0 text-[16px] leading-[1.45] text-tint lg:col-span-4">{row.text}</p>
-            <p className="col-span-12 m-0 text-[15px] leading-[1.45] lg:col-span-3">
-              {row.terms.map((t, j) => (
-                <span key={t} className="lg:block">{t}{j < row.terms.length - 1 ? <span className="lg:hidden">, </span> : null}</span>
-              ))}
-            </p>
-          </li>
-        ))}
+      <Reveal className="tile hud overflow-hidden text-white" stagger={40}>
+        <Accordion type="single" collapsible defaultValue={disciplines.rows[0].title} className="flex h-full flex-col">
+          {disciplines.rows.map((row, i) => (
+            <AccordionItem key={row.title} value={row.title} className={cn("flex flex-1 flex-col border-0", i % 2 === 0 ? "bg-navy-deep" : "bg-navy")}>
+              <AccordionTrigger className="min-h-16 items-center rounded-none px-5 py-4 text-white hover:no-underline focus-visible:ring-white/70 md:px-7 **:data-[slot=accordion-trigger-icon]:text-tint">
+                <h3 className="m-0 font-display text-[17px] leading-[1.3] font-normal">{row.title}</h3>
+              </AccordionTrigger>
+              <AccordionContent className="px-5 pb-6 md:px-7">
+                <div className="grid grid-cols-1 gap-x-6 gap-y-3 md:grid-cols-12">
+                  <p className="col-span-12 m-0 text-[16px] leading-[1.45] text-tint md:col-span-7">{row.text}</p>
+                  <p className="col-span-12 m-0 text-[15px] leading-[1.45] text-white md:col-span-5">
+                    {row.terms.map((t, j) => (
+                      <span key={t} className="md:block">{t}{j < row.terms.length - 1 ? <span className="md:hidden">, </span> : null}</span>
+                    ))}
+                  </p>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
       </Reveal>
     </section>
   )

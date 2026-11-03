@@ -232,3 +232,19 @@
   .loop-trigger { display: block; padding: 0; }
   .loop-trigger .loop-name { position: absolute; left: 22px; bottom: 24px; writing-mode: vertical-rl; transform: rotate(180deg); transform-origin: center; }
 }
+
+/* The wireframe lights up around the pointer. */
+.scanned-lit { opacity: var(--lit, 0); transition: opacity 0.5s; -webkit-mask-image: radial-gradient(170px circle at var(--mx, -999px) var(--my, -999px), #fff 0%, transparent 70%); mask-image: radial-gradient(170px circle at var(--mx, -999px) var(--my, -999px), #fff 0%, transparent 70%); } /* taste-skill-ignore: Matthew's glow (AGENTS.md) */
+/* Loop: a thin line counts the dwell before the next stage. */
+.loop-progress { position: absolute; left: 0; bottom: 0; height: 2px; width: 0; background: var(--white); opacity: 0.6; animation: loop-dwell 5.2s linear forwards; } /* taste-skill-ignore: progress line, Matthew's thin lines */
+@keyframes loop-dwell { to { width: 100%; } }
+/* Sector tiles cut in when the era changes. */
+.mosaic-cell { animation: tile-in 0.55s cubic-bezier(0.16, 1, 0.3, 1) both; animation-delay: calc(var(--i, 0) * 22ms); }
+@keyframes tile-in { from { opacity: 0; transform: scale(0.94); } to { opacity: 1; transform: none; } }
+/* Nav: the section on screen carries a node. */
+.nav-link.is-active::after { content: ""; position: absolute; left: 50%; bottom: -9px; width: 5px; height: 5px; margin-left: -2.5px; border-radius: 50%; background: var(--white); }
+@media (prefers-reduced-motion: reduce) {
+  .scanned-lit { transition: none; }
+  .loop-progress { animation: none; display: none; }
+  .mosaic-cell { animation: none; }
+}

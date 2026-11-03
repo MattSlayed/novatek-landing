@@ -1,20 +1,47 @@
-import { useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Reveal } from "@/components/Reveal"
 import { Slab } from "@/components/Slab"
 import { Stamp } from "@/components/Stamp"
+import { usePrefersReducedMotion } from "@/hooks/useInView"
 import { loop } from "@/content"
 import { cn } from "@/lib/utils"
 
 const tones = ["bg-navy-deep text-white", "bg-navy text-white", "bg-[#2b4f85] text-white", "bg-cobalt text-white"]
+const DWELL = 5200
 
 /**
  * How it works: the loop as a horizontal accordion of tinted panels, dark to
- * light, past to amplified. Clicking a sliver opens it. On a phone the stages
- * stack as bars in the same order.
+ * light, past to amplified. While it is on screen and untouched it advances
+ * on its own, a stage every five seconds, because it is a loop; the first
+ * click or key hands it over to the visitor. Off under reduced motion.
  */
 export function Loop() {
   const [open, setOpen] = useState(loop.stages[0].id)
+  const [auto, setAuto] = useState(true)
+  const [paused, setPaused] = useState(false)
+  const [visible, setVisible] = useState(false)
+  const reduced = usePrefersReducedMotion()
+  const rowRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const el = rowRef.current
+    if (!el || typeof IntersectionObserver === "undefined") return
+    const io = new IntersectionObserver(([e]) => setVisible(e.isIntersecting), { threshold: 0.5 })
+    io.observe(el)
+    return () => io.disconnect()
+  }, [])
+
+  const running = auto && visible && !paused && !reduced
+  useEffect(() => {
+    if (!running) return
+    const t = window.setTimeout(() => {
+      const i = loop.stages.findIndex((s) => s.id === open)
+      setOpen(loop.stages[(i + 1) % loop.stages.length].id)
+    }, DWELL)
+    return () => window.clearTimeout(t)
+  }, [open, running])
+
   return (
     <Slab id="loop" tone="mist" labelledBy="loop-h">
       <Reveal className="p-5 py-16 md:p-10 md:py-24 lg:py-28">
@@ -26,9 +53,18 @@ export function Loop() {
         </div>
 
         <Accordion
+          ref={rowRef}
           type="single"
           value={open}
-          onValueChange={(v) => v && setOpen(v)}
+          onValueChange={(v) => {
+            if (!v) return
+            setAuto(false)
+            setOpen(v)
+          }}
+          onPointerEnter={() => setPaused(true)}
+          onPointerLeave={() => setPaused(false)}
+          onFocusCapture={() => setPaused(true)}
+          onBlurCapture={() => setPaused(false)}
           orientation="horizontal"
           className="loop-row mt-12 flex flex-col gap-2 md:h-[520px] md:flex-row"
         >
@@ -68,6 +104,7 @@ export function Loop() {
                       ) : null}
                     </div>
                   </div>
+                  {isOpen && running ? <span key={open} className="loop-progress" aria-hidden="true" /> : null}
                 </AccordionContent>
               </AccordionItem>
             )

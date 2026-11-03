@@ -13,7 +13,7 @@ export const hero = {
   description:
     "AI, operations intelligence and reliability engineering for the industries that keep countries running: power, mining, heavy engineering and water.",
   amplified: "Decades of plant expertise, amplified rather than replaced.",
-  footnote: "Johannesburg · Industrial enterprises of 50 to 500 employees · Residency and local content, by design",
+  footnote: "Industrial enterprises of 50 to 500 employees",
   primary: { label: "See proven outcomes", href: `${site}/#cases` },
   secondary: { label: "Meet NOVACORE", href: `${site}/platform` },
   talk: { label: "Let's talk", href: `${site}/#contact` },
@@ -31,35 +31,22 @@ export const thesis = {
   // Matthew's argument, set plainly. Not from the site.
   lead: "Tools change every decade. The people holding them do not: ambition, fear, tribalism and the need for meaning have not moved since the first furnace was lit. So the record of how people built, ran and broke things is the sharpest diagnostic of what they will do with the next one.",
   columns: [
-    {
-      runIn: "Who we are.",
-      text: "A Johannesburg-based AI and operations-intelligence implementation company, building working systems for industrial enterprises of 50 to 500 employees across power generation, heavy engineering, mining services and fabrication.",
-    },
-    {
-      runIn: "What we do.",
-      text: "We help operations teams make better decisions with the data they already have: AI tools that read contracts, dashboards that surface real risks, and automation that takes the busywork off your plate. Every engagement starts with advisory and ends with something built and running.",
-    },
-    {
-      runIn: "Where we work.",
-      text: "South Africa and Botswana, with cross-border delivery proven from an active Botswana engagement. POPIA-native and B-BBEE Level 1. Client data is stored in South Africa, on in-country infrastructure.",
-    },
-    {
-      runIn: "How to reach us.",
-      text: "info@novatekllc.co.za or +27 82 680 5571. We respond within one working day. Tell us the operation, the constraint and what you need to decide, and we'll come back with a scoped view of what is achievable.",
-    },
+    { runIn: "Who.", text: "A Johannesburg implementation company for industrial enterprises of 50 to 500 employees." },
+    { runIn: "What.", text: "Advisory first, a readiness review and a roadmap, then something built and running." },
+    { runIn: "Where.", text: "South Africa and Botswana. POPIA-native, B-BBEE Level 1, data stored in-country." },
+    { runIn: "Reach.", text: "info@novatekllc.co.za · +27 82 680 5571 · a reply within one working day." },
   ],
 }
 
 export const loop = {
   heading: "Loop, not line.",
-  intro:
-    "We read the past the way an engineer reads a trend log: as evidence of how this system behaves under load. What people did with the last tool is the baseline for what they will do with the next one. Then we build, with a person confirming every write.",
+  intro: "We read the past the way an engineer reads a trend log: as evidence of how this system behaves under load.",
   stages: [
     {
       id: "past",
       name: "Past",
       title: "Read the record.",
-      text: "Start with what the operation already owns: P&IDs, general arrangements, layouts, job cards, SOPs and maintenance history. Complete, and unusable, until someone reads it.",
+      text: "What the operation already owns: drawings, job cards, SOPs, maintenance history. Complete, and unusable, until someone reads it.",
       // Thucydides, History of the Peloponnesian War, 1.22, Richard Crawley's
       // translation (1874, public domain). NEEDS MATTHEW'S CONFIRMATION.
       quote: {
@@ -72,19 +59,19 @@ export const loop = {
       id: "diagnosis",
       name: "Diagnosis",
       title: "Baseline the behaviour.",
-      text: "We baseline the process first, intervene where the waste actually is, and measure the delta. We treat data as evidence, not dashboards as theatre. Every metric carries provenance.",
+      text: "Baseline the process, intervene where the waste actually is, measure the delta. Every metric carries provenance.",
     },
     {
       id: "present",
       name: "Present",
       title: "Build what runs.",
-      text: "Every engagement starts with advisory, a readiness review and a roadmap, and ends with something built and running. We integrate with the systems you already run, legacy or modern.",
+      text: "Advisory first, then something built and running, on the systems you already run, legacy or modern.",
     },
     {
       id: "amplified",
       name: "Amplified",
       title: "A person confirms.",
-      text: "Every write action passes through a mandatory human confirmation gate, so no black-box AI acts on your behalf. Reads traverse freely; writes always require human consent.",
+      text: "Reads traverse freely. Every write passes a human confirmation gate. No black-box AI acts on your behalf.",
     },
   ],
 }
@@ -159,7 +146,7 @@ export const sectors: Sector[] = [
 
 export const disciplines = {
   heading: ["Six disciplines.", "One approach."],
-  text: "Every engagement starts with the same question: what does Defensible look like for this client, this industry, this constraint set? Then we baseline the process, intervene where the waste is, and measure the delta.",
+  text: "One question starts every engagement: what does Defensible look like for this client, this constraint set?",
   action: { label: "Meet NOVACORE", href: `${site}/platform` },
   rows: [
     { title: "Strategic AI implementation", text: "Bespoke AI solutions from prompt engineering through to full assembly-line architectures. We separate Defensible from Aspirational before anything gets built.", terms: ["AI readiness review", "NEC contract analysis", "Transformation roadmap"] },
@@ -173,7 +160,7 @@ export const disciplines = {
 
 export const close = {
   heading: "Build something measurable.",
-  text: "Whether it's an AI readiness review, a contract-analysis pipeline, or a full NOVACORE pilot, the conversation starts with what you actually need. We respond within one working day.",
+  text: "Tell us what you're trying to make decidable. We respond within one working day.",
   action: { label: "Email us", href: "mailto:info@novatekllc.co.za" },
 }
 

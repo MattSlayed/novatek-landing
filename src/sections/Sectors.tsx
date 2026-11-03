@@ -67,7 +67,7 @@ export function Sectors() {
             Four sectors. One record.
           </h2>
           <p className="col-span-12 m-0 max-w-[48ch] text-[19px] leading-[1.45] md:col-span-6">
-            Each sector has been solving the same problem for centuries: keep the plant running, prove what it did, and hand the knowledge on. Pick one and read its record against ours.
+            Pick a sector. Read its record against ours.
           </p>
         </div>
 
@@ -106,8 +106,8 @@ function Mosaic({ board, sector, picture, className, narrow = false }: { board: 
   let first = true
   return (
     <div className={className} role="group" aria-label={`${sector.name}: the record and the reading`}>
-      {cells(board).map(({ key, r, c, flat }) => {
-        const place = { gridRow: `${r + 1} / span ${flat?.rs ?? 1}`, gridColumn: `${c + 1} / span ${flat?.cs ?? 1}` }
+      {cells(board).map(({ key, r, c, flat }, i) => {
+        const place = { "--i": i, gridRow: `${r + 1} / span ${flat?.rs ?? 1}`, gridColumn: `${c + 1} / span ${flat?.cs ?? 1}` } as React.CSSProperties
         if (!flat) {
           const lead = first
           first = false
@@ -164,8 +164,8 @@ function FlatTile({ kind, sector, style, narrow }: { kind: Kind; sector: Sector;
   if (kind === "stamp")
     return (
       <div style={style} className={cn("mosaic-cell flex aspect-square flex-col justify-end gap-1 bg-mist text-charcoal", pad)}>
-        <Stamp className="text-charcoal">Record: {sector.then.stamp}</Stamp>
-        <Stamp className="text-cobalt">Reading: {sector.now.stamp}</Stamp>
+        <Stamp className="text-charcoal">{sector.then.stamp}</Stamp>
+        <Stamp className="text-cobalt">{sector.now.stamp}</Stamp>
       </div>
     )
   return (

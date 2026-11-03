@@ -1,7 +1,7 @@
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Mark, Wordmark } from "@/components/Mark"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Separator } from "@/components/ui/separator"
 import { Slab } from "@/components/Slab"
 import { Stamp } from "@/components/Stamp"
 import { footer, hero, slogan } from "@/content"
@@ -10,7 +10,7 @@ import { credits } from "@/pictures"
 /**
  * Footer: the mark, built large. The blueprint wanted the wordmark rebuilt
  * from blocks; the brand keeps the N exactly as drawn, so the original N is
- * set large instead, white on navy.
+ * set large instead, white on navy. Picture credits open on demand.
  */
 export function Footer() {
   return (
@@ -47,21 +47,25 @@ export function Footer() {
           ))}
         </div>
 
-        <Separator className="my-10 bg-white/20" />
+        <Accordion type="single" collapsible className="mt-12 max-w-[62ch]">
+          <AccordionItem value="credits" className="border-0">
+            <AccordionTrigger className="rounded-[2px] px-0 py-2 text-[16px] font-normal text-white hover:no-underline focus-visible:ring-white/70 **:data-[slot=accordion-trigger-icon]:text-tint">
+              Pictures and credits
+            </AccordionTrigger>
+            <AccordionContent className="pb-2">
+              <ul className="m-0 flex list-none flex-col gap-2 p-0 text-[16px] leading-snug text-tint">
+                {credits.map((p) => (
+                  <li key={p.source}>
+                    <span className="font-serif text-[17px] text-white">{p.title}</span>, {p.artist}, {p.year}. {p.credit}{" "}
+                    <a href={p.source} className="text-white underline" target="_blank" rel="noreferrer">Source</a>
+                  </li>
+                ))}
+              </ul>
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
 
-        <section aria-labelledby="credits-h" className="max-w-[62ch]">
-          <h2 id="credits-h" className="m-0 font-sans text-[15px] font-semibold text-white">Pictures</h2>
-          <ul className="m-0 mt-3 flex list-none flex-col gap-2 p-0 text-[16px] leading-snug text-tint">
-            {credits.map((p) => (
-              <li key={p.source}>
-                <span className="font-serif text-[17px] text-white">{p.title}</span>, {p.artist}, {p.year}. {p.credit}{" "}
-                <a href={p.source} className="text-white underline" target="_blank" rel="noreferrer">Source</a>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <div className="mt-12 flex flex-wrap items-center justify-between gap-4">
+        <div className="mt-10 flex flex-wrap items-center justify-between gap-4">
           <Stamp className="text-tint">{footer.legal}</Stamp>
           <Button asChild size="sm" className="h-9 rounded-[2px] bg-white px-4 text-[15px] text-navy hover:bg-mist focus-visible:ring-white/70">
             <a href={hero.talk.href}>{hero.talk.label}</a>
