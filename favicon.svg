@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <title>NOVATEK - Favicon</title>
+  <defs>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="url(#fg)"/>
+  <!-- N mark (white, simplified for small size) -->
+  <path d="M 8 26 L 8 8 L 22 26 L 22 6"
+        fill="none" stroke="#ffffff" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Arrow extension -->
+  <path d="M 22 6 L 25.5 3.5"
+        fill="none" stroke="#ffffff" stroke-width="2.5"
+        stroke-linecap="round"/>
+  <!-- Tech nodes -->
+  <circle cx="8" cy="26" r="2" fill="#ffffff"/>
+  <circle cx="22" cy="26" r="2" fill="#ffffff"/>
+  <circle cx="25.5" cy="3.5" r="1.5" fill="#ffffff"/>
+</svg>
