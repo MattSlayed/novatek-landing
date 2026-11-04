@@ -1,0 +1,34 @@
+[
+  {
+    "text": "",
+    "diff": {}
+  },
+  {
+    "text": "About",
+    "diff": {}
+  },
+  {
+    "text": "Work",
+    "diff": {}
+  },
+  {
+    "text": "Services",
+    "diff": {}
+  },
+  {
+    "text": "Process",
+    "diff": {}
+  },
+  {
+    "text": "",
+    "diff": {
+      "opacity": "1 -> 0.9"
+    }
+  },
+  {
+    "text": "Start a project",
+    "diff": {
+      "opacity": "1 -> 0.9"
+    }
+  }
+]

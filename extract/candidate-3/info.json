@@ -1,0 +1,2024 @@
+{
+  "title": "MONOLOG | Brand and Web Design Studio founded By Huy",
+  "lang": "en",
+  "bodyBg": "rgb(232, 232, 227)",
+  "fonts": [
+    "Khteka-68c8c9f4c89c1113 500 normal",
+    "Khteka-68c8c9f4c89c1113 700 normal",
+    "Khteka-68c8c9f4c89c1113 fallback: Arial 500 normal",
+    "Khteka-68c8c9f4c89c1113 fallback: Arial Bold 700 normal",
+    "Animo-e7d753fc234afb6e 400 normal",
+    "Suisse Mono-8fe3d4df0cbf3054 400 normal",
+    "Suisse Mono-8fe3d4df0cbf3054 fallback: Arial 400 normal"
+  ],
+  "topColours": [
+    [
+      "text:rgb(232, 232, 227)",
+      956
+    ],
+    [
+      "text:rgb(8, 8, 7)",
+      347
+    ],
+    [
+      "text:rgb(147, 143, 138)",
+      56
+    ],
+    [
+      "text:rgb(107, 100, 92)",
+      26
+    ],
+    [
+      "rgb(8, 8, 7)",
+      24
+    ],
+    [
+      "lab(91.8898 -0.639528 2.43751 / 0.1)",
+      20
+    ],
+    [
+      "rgb(24, 23, 21)",
+      17
+    ],
+    [
+      "rgb(232, 232, 227)",
+      11
+    ],
+    [
+      "lab(2.17671 -0.102662 0.380406 / 0.1)",
+      11
+    ],
+    [
+      "rgb(147, 143, 138)",
+      9
+    ],
+    [
+      "text:rgb(221, 221, 213)",
+      9
+    ],
+    [
+      "text:rgb(82, 77, 71)",
+      8
+    ],
+    [
+      "rgb(209, 209, 199)",
+      6
+    ],
+    [
+      "color(srgb 0.0313726 0.0313726 0.027451 / 0.8)",
+      6
+    ],
+    [
+      "rgb(221, 221, 213)",
+      4
+    ],
+    [
+      "text:rgba(0, 0, 0, 0)",
+      3
+    ],
+    [
+      "text:rgb(0, 0, 0)",
+      2
+    ],
+    [
+      "rgb(82, 77, 71)",
+      2
+    ],
+    [
+      "color(srgb 0.0313726 0.0313726 0.027451 / 0.6)",
+      2
+    ],
+    [
+      "rgb(57, 54, 50)",
+      2
+    ],
+    [
+      "rgb(0, 0, 0)",
+      2
+    ],
+    [
+      "color(srgb 0.0313726 0.0313726 0.027451 / 0.65)",
+      1
+    ],
+    [
+      "text:rgb(250, 250, 249)",
+      1
+    ],
+    [
+      "rgb(191, 191, 177)",
+      1
+    ]
+  ],
+  "h1": [
+    {
+      "tag": "h1",
+      "text": "Websites\nand identities\nthat reflect\nyour ambition",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "139.5px",
+      "weight": "700",
+      "ls": "-4.185px",
+      "lh": "108.81px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        494,
+        132,
+        920,
+        432
+      ]
+    }
+  ],
+  "h2": [
+    {
+      "tag": "h2",
+      "text": "Clients",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1492,
+        1706,
+        73,
+        18
+      ]
+    },
+    {
+      "tag": "h2",
+      "text": "Vinamilk",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1801,
+        1706,
+        334,
+        18
+      ]
+    },
+    {
+      "tag": "h2",
+      "text": "Moc Chau Creamery",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1801,
+        1736,
+        334,
+        18
+      ]
+    },
+    {
+      "tag": "h2",
+      "text": "Shortscut",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1801,
+        1766,
+        334,
+        18
+      ]
+    },
+    {
+      "tag": "h2",
+      "text": "OH Architecture",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1801,
+        1796,
+        334,
+        18
+      ]
+    },
+    {
+      "tag": "h2",
+      "text": "Supersolid Agency",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1801,
+        1825,
+        334,
+        18
+      ]
+    },
+    {
+      "tag": "h2",
+      "text": "Mammoth Murals",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1801,
+        1855,
+        334,
+        18
+      ]
+    },
+    {
+      "tag": "h2",
+      "text": "SLIK Agency",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1801,
+        1885,
+        334,
+        18
+      ]
+    },
+    {
+      "tag": "h2",
+      "text": "BlueBrown Partners",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1801,
+        1915,
+        334,
+        18
+      ]
+    },
+    {
+      "tag": "h2",
+      "text": "Backhouse",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1801,
+        1945,
+        334,
+        18
+      ]
+    },
+    {
+      "tag": "h2",
+      "text": "University of Sydney",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1801,
+        1974,
+        334,
+        18
+      ]
+    },
+    {
+      "tag": "h2",
+      "text": "Awards",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1492,
+        2072,
+        79,
+        18
+      ]
+    }
+  ],
+  "h3": [
+    {
+      "tag": "h3",
+      "text": "21%",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "500",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgb(209, 209, 199)",
+      "transform": "none",
+      "rect": [
+        942,
+        4918,
+        57,
+        34
+      ]
+    },
+    {
+      "tag": "h3",
+      "text": "90%",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "500",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgb(209, 209, 199)",
+      "transform": "none",
+      "rect": [
+        942,
+        5426,
+        63,
+        34
+      ]
+    },
+    {
+      "tag": "h3",
+      "text": "$100K+",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "500",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgb(209, 209, 199)",
+      "transform": "none",
+      "rect": [
+        942,
+        5957,
+        96,
+        34
+      ]
+    },
+    {
+      "tag": "h3",
+      "text": "15+",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "500",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgb(209, 209, 199)",
+      "transform": "none",
+      "rect": [
+        942,
+        6465,
+        52,
+        34
+      ]
+    },
+    {
+      "tag": "h3",
+      "text": "We uncover your story",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        190,
+        9141,
+        343,
+        18
+      ]
+    },
+    {
+      "tag": "h3",
+      "text": "We shape your digital presence",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        190,
+        9527,
+        343,
+        18
+      ]
+    },
+    {
+      "tag": "h3",
+      "text": "We send it into the world",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        190,
+        9913,
+        343,
+        18
+      ]
+    },
+    {
+      "tag": "h3",
+      "text": "Who do you usually work with?",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "19.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "24.6875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        494,
+        10860,
+        270,
+        25
+      ]
+    },
+    {
+      "tag": "h3",
+      "text": "Who will actually be working on our project?",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "19.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "24.6875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        494,
+        10917,
+        384,
+        25
+      ]
+    },
+    {
+      "tag": "h3",
+      "text": "How long do your projects usually take?",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "19.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "24.6875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        494,
+        10974,
+        347,
+        25
+      ]
+    },
+    {
+      "tag": "h3",
+      "text": "How do you communicate and manage work?",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "19.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "24.6875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        494,
+        11031,
+        397,
+        25
+      ]
+    },
+    {
+      "tag": "h3",
+      "text": "What do you need to start working together?",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "19.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "24.6875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        494,
+        11089,
+        392,
+        25
+      ]
+    }
+  ],
+  "p": [
+    {
+      "tag": "p",
+      "text": "About the studio",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "19.75px",
+      "weight": "500",
+      "ls": "-0.1975px",
+      "lh": "24.6875px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1492,
+        38,
+        143,
+        15
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "700",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1467,
+        84,
+        522,
+        384
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "Every creative decision we make is interrogated against one question: does this actually serve your growth?",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "15.75px",
+      "weight": "500",
+      "ls": "-0.1575px",
+      "lh": "19.6875px",
+      "color": "rgb(107, 100, 92)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1801,
+        2433,
+        334,
+        51
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "We take on fewer projects so we can give each one everything. When we commit to your brand, we're fully present, fully i",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "15.75px",
+      "weight": "500",
+      "ls": "-0.1575px",
+      "lh": "19.6875px",
+      "color": "rgb(107, 100, 92)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1801,
+        2600,
+        334,
+        71
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "Behind every brand is a person with a real story and real stakes. We never lose sight of that. The most powerful digital",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "15.75px",
+      "weight": "500",
+      "ls": "-0.1575px",
+      "lh": "19.6875px",
+      "color": "rgb(107, 100, 92)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1801,
+        2787,
+        334,
+        71
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "Rushed work compounds into regret. We move at the pace the work demands. Every layer earns its place before we move to t",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "15.75px",
+      "weight": "500",
+      "ls": "-0.1575px",
+      "lh": "19.6875px",
+      "color": "rgb(107, 100, 92)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1801,
+        2975,
+        334,
+        51
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "(Design partner for scaling B2B brands)",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "-0.1775px",
+      "lh": "22.1875px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        26,
+        861,
+        305,
+        14
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "You’ve outgrown your brand\nand website. We help you build\na presence that lives up to your\nreputation and expertise, so ",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "23.75px",
+      "weight": "500",
+      "ls": "-0.35625px",
+      "lh": "26.125px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        26,
+        132,
+        321,
+        149
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "Increased OH Arch’s conversions by 21%, generating $2M+ in revenue",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "15.75px",
+      "weight": "500",
+      "ls": "-0.1575px",
+      "lh": "15.75px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        623,
+        679,
+        207,
+        44
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "Helped Mammoth Murals close $100k+ in new deals within 30 days of launch",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "15.75px",
+      "weight": "500",
+      "ls": "-0.1575px",
+      "lh": "15.75px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        626,
+        792,
+        197,
+        41
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "19.75px",
+      "weight": "500",
+      "ls": "-0.1975px",
+      "lh": "24.6875px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        519,
+        1294,
+        177,
+        15
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "\"As Shortscut grew to $6M+/year, our\nbrand and website no longer reflected the\nquality of our work. MONOLOG\ntransformed ",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "-0.1775px",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        26,
+        1966,
+        334,
+        169
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "tag": "a",
+      "text": "",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "-0.1775px",
+      "lh": "22.1875px",
+      "color": "rgb(250, 250, 249)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        26,
+        32,
+        80,
+        19
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "About",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "15.75px",
+      "weight": "500",
+      "ls": "-0.1575px",
+      "lh": "19.6875px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        494,
+        28,
+        58,
+        28
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Work",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "15.75px",
+      "weight": "500",
+      "ls": "-0.1575px",
+      "lh": "19.6875px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        552,
+        28,
+        52,
+        28
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Services",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "15.75px",
+      "weight": "500",
+      "ls": "-0.1575px",
+      "lh": "19.6875px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        604,
+        28,
+        75,
+        28
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Process",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "15.75px",
+      "weight": "500",
+      "ls": "-0.1575px",
+      "lh": "19.6875px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        679,
+        28,
+        71,
+        28
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Start a project",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "15.75px",
+      "weight": "500",
+      "ls": "-0.1575px",
+      "lh": "19.6875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgb(24, 23, 21)",
+      "transform": "none",
+      "rect": [
+        1273,
+        26,
+        141,
+        32
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Home\n→",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "-0.1775px",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        26,
+        13026,
+        686,
+        72
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "About\n→",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "-0.1775px",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        26,
+        13099,
+        686,
+        72
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Work\n→",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "-0.1775px",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        26,
+        13171,
+        686,
+        72
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Process\n→",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "-0.1775px",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        26,
+        13244,
+        686,
+        72
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Services\n→",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "-0.1775px",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        26,
+        13317,
+        686,
+        72
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Resources\n→",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "-0.1775px",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        26,
+        13390,
+        686,
+        72
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Start a project\n→",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "-0.1775px",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        26,
+        13463,
+        686,
+        72
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "YouTube ↗",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "-0.1775px",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1174,
+        13011,
+        127,
+        34
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Linkedin ↗",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "-0.1775px",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1174,
+        13047,
+        126,
+        34
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Instagram ↗",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "-0.1775px",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1174,
+        13084,
+        143,
+        34
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "text": "Close about modal",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "color(srgb 0.0313726 0.0313726 0.027451 / 0.65)",
+      "transform": "none",
+      "rect": [
+        0,
+        0,
+        1440,
+        900
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Close\nESC\nESC",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgb(8, 8, 7)",
+      "transform": "none",
+      "rect": [
+        2049,
+        26,
+        85,
+        36
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "15.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "19.6875px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1230,
+        26,
+        32,
+        32
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Start a project",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "15.75px",
+      "weight": "500",
+      "ls": "-0.1575px",
+      "lh": "19.6875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgb(24, 23, 21)",
+      "transform": "none",
+      "rect": [
+        1273,
+        26,
+        141,
+        32
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Schedule an intro call",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "-0.1775px",
+      "lh": "22.1875px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgb(24, 23, 21)",
+      "transform": "none",
+      "rect": [
+        26,
+        312,
+        193,
+        36
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Increased OH Arch’s conversions by 21%, generating $2M+ in revenue",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        520,
+        667,
+        322,
+        99
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Helped Mammoth Murals close $100k+ in new deals within 30 days of launch",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        528,
+        781,
+        306,
+        94
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        26,
+        1911,
+        16,
+        16
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        54,
+        1911,
+        16,
+        16
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        26,
+        8064,
+        16,
+        16
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        54,
+        8064,
+        16,
+        16
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Who do you usually work with?",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        494,
+        10844,
+        920,
+        56
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Who will actually be working on our project?",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        494,
+        10901,
+        920,
+        56
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "How long do your projects usually take?",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        494,
+        10958,
+        920,
+        56
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "How do you communicate and manage work?",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        494,
+        11016,
+        920,
+        56
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "What do you need to start working together?",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        494,
+        11073,
+        920,
+        56
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "What happens after launch?",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        494,
+        11130,
+        920,
+        56
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Do we need a complete rebrand, or can we just redesign our website?",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        494,
+        11187,
+        920,
+        56
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "What is the project investment?",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "22.1875px",
+      "color": "rgb(232, 232, 227)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        494,
+        11244,
+        920,
+        56
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Book a call with Huy",
+      "font": "Khteka-68c8c9f4c89c1113",
+      "size": "17.75px",
+      "weight": "500",
+      "ls": "-0.1775px",
+      "lh": "22.1875px",
+      "color": "rgb(8, 8, 7)",
+      "bg": "rgb(232, 232, 227)",
+      "transform": "none",
+      "rect": [
+        26,
+        11266,
+        183,
+        36
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "tag": "header",
+      "cls": "navbar_wrap",
+      "id": "",
+      "top": 0,
+      "h": 84,
+      "bg": "rgba(0, 0, 0, 0)",
+      "headings": []
+    },
+    {
+      "tag": "section",
+      "cls": "hero_home_wrap",
+      "id": "",
+      "top": 0,
+      "h": 1866,
+      "bg": "rgb(232, 232, 227)",
+      "headings": [
+        "Websites\nand identities\nthat reflect\nyour ambition"
+      ]
+    },
+    {
+      "tag": "section",
+      "cls": "problems_home_wrap",
+      "id": "",
+      "top": 1866,
+      "h": 910,
+      "bg": "rgb(8, 8, 7)",
+      "headings": [
+        "Great B2B founders deserve a\npresence as powerful as what\nthey're building. Most"
+      ]
+    },
+    {
+      "tag": "header",
+      "cls": "problems_home_header",
+      "id": "",
+      "top": 1898,
+      "h": 668,
+      "bg": "rgba(0, 0, 0, 0)",
+      "headings": [
+        "Great B2B founders deserve a\npresence as powerful as what\nthey're building. Most"
+      ]
+    },
+    {
+      "tag": "section",
+      "cls": "gap_home_wrap",
+      "id": "",
+      "top": 2776,
+      "h": 1800,
+      "bg": "rgb(8, 8, 7)",
+      "headings": [
+        "WE CLOSE‎‎‎‎‎ ‎",
+        "THAT GAP"
+      ]
+    },
+    {
+      "tag": "section",
+      "cls": "works_home_wrap.theme-light",
+      "id": "work",
+      "top": 4576,
+      "h": 3265,
+      "bg": "rgb(232, 232, 227)",
+      "headings": [
+        "SUCCESS STORIES",
+        "OH Architecture",
+        "21%"
+      ]
+    },
+    {
+      "tag": "section",
+      "cls": "services_home_wrap",
+      "id": "services",
+      "top": 7841,
+      "h": 894,
+      "bg": "rgb(8, 8, 7)",
+      "headings": [
+        "Brand Strategy",
+        "Visual Identity",
+        "Website Strategy"
+      ]
+    },
+    {
+      "tag": "section",
+      "cls": "process_home_wrap",
+      "id": "process",
+      "top": 8735,
+      "h": 1741,
+      "bg": "rgb(8, 8, 7)",
+      "headings": [
+        "PROJECT PROCESS",
+        "We uncover your story",
+        "We shape your digital presence"
+      ]
+    },
+    {
+      "tag": "section",
+      "cls": "faq_home_wrap.grid-site",
+      "id": "faqs",
+      "top": 10476,
+      "h": 857,
+      "bg": "rgb(24, 23, 21)",
+      "headings": [
+        "Here's what you need to consider before partnering with us.",
+        "Who do you usually work with?",
+        "Who will actually be working on our project?"
+      ]
+    },
+    {
+      "tag": "section",
+      "cls": "cta_home_wrap",
+      "id": "",
+      "top": 11333,
+      "h": 1729,
+      "bg": "rgb(8, 8, 7)",
+      "headings": [
+        "READY TO BUILD AN EXPERIENCE THAT MOVES PEOPLE?"
+      ]
+    },
+    {
+      "tag": "footer",
+      "cls": "footer_wrap_main",
+      "id": "",
+      "top": 13062,
+      "h": 1263,
+      "bg": "rgba(0, 0, 0, 0)",
+      "headings": []
+    }
+  ],
+  "sticky": [
+    {
+      "tag": "div",
+      "cls": "transition_screen",
+      "pos": "fixed",
+      "text": ""
+    },
+    {
+      "tag": "div",
+      "cls": "cursor_wrap",
+      "pos": "fixed",
+      "text": "Hello world"
+    },
+    {
+      "tag": "div",
+      "cls": "about_wrap",
+      "pos": "fixed",
+      "text": "Close about modal\nClose\nESC\nESC\n\nAbout the studio\n\nEST 2022\n"
+    },
+    {
+      "tag": "div",
+      "cls": "about_modal_close",
+      "pos": "sticky",
+      "text": "Close\nESC\nESC"
+    },
+    {
+      "tag": "div",
+      "cls": "g_overlay",
+      "pos": "fixed",
+      "text": ""
+    },
+    {
+      "tag": "div",
+      "cls": "g_grain_overlay",
+      "pos": "fixed",
+      "text": ""
+    },
+    {
+      "tag": "header",
+      "cls": "navbar_wrap",
+      "pos": "fixed",
+      "text": "About\nWork\nServices\nProcess\nStart a project"
+    },
+    {
+      "tag": "div",
+      "cls": "gap_home_contain",
+      "pos": "sticky",
+      "text": "‎\n\n\n\n\nWE CLOSE‎‎‎‎‎ ‎\nTHAT GAP\n\nYour website is where ideal "
+    }
+  ],
+  "animated": [
+    {
+      "tag": "div",
+      "cls": "cursor-bubble",
+      "anim": "none",
+      "trans": "clip-path, opacity, transform 0.45s, 0.2s, 0.45s cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.16, 1, 0.3, 1)"
+    },
+    {
+      "tag": "span",
+      "cls": "cursor-bubble__text.text-style-main",
+      "anim": "none",
+      "trans": "opacity, transform 0.2s, 0.2s cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.16, 1, 0.3, 1)"
+    },
+    {
+      "tag": "button",
+      "cls": "button_wrap.inverse",
+      "anim": "none",
+      "trans": "transform, opacity, color, background-color 0.35s, 0.35s, 0.25s, 0.25s cubic-bezier(0.48, 1.68, 0.64, 1), cubic-bezier(0.16, 1, 0.35, 1), ease, ease"
+    },
+    {
+      "tag": "span",
+      "cls": "button_text.text-style-small.text-trim-off",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "span",
+      "cls": "button_aside_bg",
+      "anim": "none",
+      "trans": "transform, color, background-color 0.65s, 0.25s, 0.25s cubic-bezier(0.16, 1, 0.35, 1), ease, ease"
+    },
+    {
+      "tag": "span",
+      "cls": "button_hint.text-mono",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "span",
+      "cls": "button_hint.is-entering.text-mono",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "footer_nav_span.text-style-h3",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "footer_nav_span.text-style-h3.is-arrow",
+      "anim": "none",
+      "trans": "transform, opacity, filter 0.65s, 0.3s, 0.3s cubic-bezier(0.16, 1, 0.35, 1), cubic-bezier(0.16, 1, 0.35, 1), cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "footer_nav_span.text-style-h3",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "footer_nav_span.text-style-h3.is-arrow",
+      "anim": "none",
+      "trans": "transform, opacity, filter 0.65s, 0.3s, 0.3s cubic-bezier(0.16, 1, 0.35, 1), cubic-bezier(0.16, 1, 0.35, 1), cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "footer_nav_span.text-style-h3",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "footer_nav_span.text-style-h3.is-arrow",
+      "anim": "none",
+      "trans": "transform, opacity, filter 0.65s, 0.3s, 0.3s cubic-bezier(0.16, 1, 0.35, 1), cubic-bezier(0.16, 1, 0.35, 1), cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "footer_nav_span.text-style-h3",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "footer_nav_span.text-style-h3.is-arrow",
+      "anim": "none",
+      "trans": "transform, opacity, filter 0.65s, 0.3s, 0.3s cubic-bezier(0.16, 1, 0.35, 1), cubic-bezier(0.16, 1, 0.35, 1), cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "footer_nav_span.text-style-h3",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "footer_nav_span.text-style-h3.is-arrow",
+      "anim": "none",
+      "trans": "transform, opacity, filter 0.65s, 0.3s, 0.3s cubic-bezier(0.16, 1, 0.35, 1), cubic-bezier(0.16, 1, 0.35, 1), cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "g_grain_overlay",
+      "anim": "grain-animation",
+      "trans": "all 0s ease"
+    },
+    {
+      "tag": "div",
+      "cls": "navbar_contain.grid-site",
+      "anim": "none",
+      "trans": "color, background-color 0.25s, 0.25s ease, ease"
+    },
+    {
+      "tag": "svg",
+      "cls": "navbar_home_svg",
+      "anim": "none",
+      "trans": "color, background-color 0.25s, 0.25s ease, ease"
+    },
+    {
+      "tag": "button",
+      "cls": "navbar_left_sound_btn",
+      "anim": "none",
+      "trans": "transform, opacity 0.35s, 0.35s cubic-bezier(0.48, 1.68, 0.64, 1), cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "span",
+      "cls": "navbar_left_sound_container",
+      "anim": "none",
+      "trans": "color, background-color 0.25s, 0.25s ease, ease"
+    },
+    {
+      "tag": "a",
+      "cls": "button_wrap",
+      "anim": "none",
+      "trans": "transform, opacity, color, background-color 0.35s, 0.35s, 0.25s, 0.25s cubic-bezier(0.48, 1.68, 0.64, 1), cubic-bezier(0.16, 1, 0.35, 1), ease, ease"
+    },
+    {
+      "tag": "span",
+      "cls": "button_text.text-style-small.text-trim-off",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "span",
+      "cls": "button_aside_bg",
+      "anim": "none",
+      "trans": "transform, color, background-color 0.65s, 0.25s, 0.25s cubic-bezier(0.16, 1, 0.35, 1), ease, ease"
+    },
+    {
+      "tag": "svg",
+      "cls": "button_arrow",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "svg",
+      "cls": "button_arrow.is-entering",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "span",
+      "cls": "navbar_menu_span",
+      "anim": "none",
+      "trans": "color, background-color 0.25s, 0.25s ease, ease"
+    },
+    {
+      "tag": "span",
+      "cls": "navbar_menu_span.is-close",
+      "anim": "none",
+      "trans": "color, background-color 0.25s, 0.25s ease, ease"
+    },
+    {
+      "tag": "a",
+      "cls": "button_wrap.secondary",
+      "anim": "none",
+      "trans": "transform, opacity, color, background-color 0.35s, 0.35s, 0.25s, 0.25s cubic-bezier(0.48, 1.68, 0.64, 1), cubic-bezier(0.16, 1, 0.35, 1), ease, ease"
+    },
+    {
+      "tag": "span",
+      "cls": "button_text.text-style-small.text-trim-off",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "span",
+      "cls": "button_aside_bg",
+      "anim": "none",
+      "trans": "transform, color, background-color 0.65s, 0.25s, 0.25s cubic-bezier(0.16, 1, 0.35, 1), ease, ease"
+    },
+    {
+      "tag": "svg",
+      "cls": "button_arrow",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "svg",
+      "cls": "button_arrow.is-entering",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "button",
+      "cls": "problem_stats_button",
+      "anim": "none",
+      "trans": "transform, opacity 0.35s, 0.35s cubic-bezier(0.48, 1.68, 0.64, 1), cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "button",
+      "cls": "problem_stats_button",
+      "anim": "none",
+      "trans": "transform, opacity 0.35s, 0.35s cubic-bezier(0.48, 1.68, 0.64, 1), cubic-bezier(0.16, 1, 0.35, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "works_home_overlay",
+      "anim": "none",
+      "trans": "opacity, backdrop-filter 0.2s, 0.85s cubic-bezier(0.25, 0, 0.25, 1), cubic-bezier(0.2, 1, 0.36, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "reel_home_cover",
+      "anim": "none",
+      "trans": "opacity, transform 0.15s, 0.85s cubic-bezier(0.25, 0, 0.25, 1), cubic-bezier(0.2, 1, 0.36, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "works_home_overlay",
+      "anim": "none",
+      "trans": "opacity, backdrop-filter 0.2s, 0.85s cubic-bezier(0.25, 0, 0.25, 1), cubic-bezier(0.2, 1, 0.36, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "reel_home_cover",
+      "anim": "none",
+      "trans": "opacity, transform 0.15s, 0.85s cubic-bezier(0.25, 0, 0.25, 1), cubic-bezier(0.2, 1, 0.36, 1)"
+    }
+  ],
+  "media": {
+    "img": 47,
+    "video": 10,
+    "canvas": 2,
+    "svg": 22,
+    "iframe": 0
+  },
+  "libs": [],
+  "cursor": "auto",
+  "customCursor": 1,
+  "links": [
+    {
+      "text": "",
+      "href": "/"
+    },
+    {
+      "text": "About",
+      "href": "/about"
+    },
+    {
+      "text": "Work",
+      "href": "/work"
+    },
+    {
+      "text": "Services",
+      "href": "#services"
+    },
+    {
+      "text": "Process",
+      "href": "#process"
+    },
+    {
+      "text": "Start a project",
+      "href": "/contact"
+    },
+    {
+      "text": "Schedule an intro call",
+      "href": "/contact"
+    },
+    {
+      "text": "SS\n/06\nOH Architecture\n\nBrand refresh an",
+      "href": "https://www.oharchitecture.com.au/"
+    },
+    {
+      "text": "SS\n/06\nSupersolid\n\nWebsite for a 100% cr",
+      "href": "https://www.supersolid.agency/"
+    },
+    {
+      "text": "SS\n/06\nMammoth Murals\n\nBrand strategy, i",
+      "href": "https://mammothmurals.com/"
+    },
+    {
+      "text": "SS\n/06\nHISS (University of Sydney)\n\nBran",
+      "href": "https://www.hiss.sydney/"
+    },
+    {
+      "text": "SS\n/06\nSLIK\n\nWebsite for an Australian a",
+      "href": "https://www.slik.com.au/"
+    },
+    {
+      "text": "SS\n/06\nShortscut\n\nVisual identity and we",
+      "href": "https://shortscut.com/"
+    },
+    {
+      "text": "08\nView All Stories\n(→)",
+      "href": "/work"
+    },
+    {
+      "text": "SEE STEP 01 IN ACTION ↗",
+      "href": "https://youtu.be/LVOLFgSqHQ0?si=ilDSUJZ8q4J_05Ou&t=76"
+    },
+    {
+      "text": "SEE STEP 02 IN ACTION ↗",
+      "href": "https://youtu.be/LVOLFgSqHQ0?si=V8p7IBYcyDvXfcSM&t=480"
+    },
+    {
+      "text": "SEE STEP 03 IN ACTION ↗",
+      "href": "https://youtu.be/LVOLFgSqHQ0?si=P7382hcVSsMWaHtP&t=696"
+    },
+    {
+      "text": "Book a call with Huy",
+      "href": "/contact"
+    },
+    {
+      "text": "Book a call with Huy",
+      "href": "/contact"
+    },
+    {
+      "text": "Tell us your story",
+      "href": "/contact"
+    },
+    {
+      "text": "Home\n→",
+      "href": "/"
+    },
+    {
+      "text": "About\n→",
+      "href": "/about"
+    },
+    {
+      "text": "Work\n→",
+      "href": "/work"
+    },
+    {
+      "text": "Process\n→",
+      "href": "#process"
+    },
+    {
+      "text": "Services\n→",
+      "href": "#services"
+    },
+    {
+      "text": "Resources\n→",
+      "href": "https://byhuy.gumroad.com/"
+    },
+    {
+      "text": "Start a project\n→",
+      "href": "/contact"
+    },
+    {
+      "text": "Webflow certified partner page",
+      "href": "https://webflow.com/@byhuy"
+    },
+    {
+      "text": "⮡ hello@bymonolog.com",
+      "href": "mailto:hello@bymonolog.com?subject=Coming%20from%20your%20website%3A%20%5BSubject%5D"
+    },
+    {
+      "text": "YouTube ↗",
+      "href": "https://www.youtube.com/@by_huy"
+    },
+    {
+      "text": "Linkedin ↗",
+      "href": "https://www.linkedin.com/in/byhuy/"
+    },
+    {
+      "text": "Instagram ↗",
+      "href": "https://www.instagram.com/by_huy/"
+    },
+    {
+      "text": "Ask Claude about MONOLOG",
+      "href": "https://claude.ai/new?q=I%20lead%20an%20established%20business%20whose%20presence%20hasn't%20caught%20up%20to%20what%20we've%20built.%20Evaluate%20MONOLOG%20(bymonolog.com)%20and%20the%20founder%20Huy%20as%20a%20potential%20partner%20%E2%80%94%20their%20positioning%2C%20results%2C%20who%20they%20genuinely%20serve%2C%20and%20whether%20they'd%20be%20the%20right%20fit%20for%20a%20founder-led%20business%20at%20an%20inflection%20point."
+    },
+    {
+      "text": "Ask Gemini about MONOLOG",
+      "href": "https://www.google.com/search?udm=50&aep=11&q=I%20lead%20an%20established%20business%20whose%20presence%20hasn't%20caught%20up%20to%20what%20we've%20built.%20Evaluate%20MONOLOG%20(bymonolog.com)%20and%20the%20founder%20Huy%20as%20a%20potential%20partner%20%E2%80%94%20their%20positioning%2C%20results%2C%20who%20they%20genuinely%20serve%2C%20and%20whether%20they'd%20be%20the%20right%20fit%20for%20a%20founder-led%20business%20at%20an%20inflection%20point."
+    },
+    {
+      "text": "Ask ChatGPT about MONOLOG",
+      "href": "https://chat.openai.com/?q=I%20lead%20an%20established%20business%20whose%20presence%20hasn't%20caught%20up%20to%20what%20we've%20built.%20Evaluate%20MONOLOG%20(bymonolog.com)%20and%20the%20founder%20Huy%20as%20a%20potential%20partner%20%E2%80%94%20their%20positioning%2C%20results%2C%20who%20they%20genuinely%20serve%2C%20and%20whether%20they'd%20be%20the%20right%20fit%20for%20a%20founder-led%20business%20at%20an%20inflection%20point."
+    },
+    {
+      "text": "Ask Grok about MONOLOG",
+      "href": "https://x.com/i/grok?text=I%20lead%20an%20established%20business%20whose%20presence%20hasn't%20caught%20up%20to%20what%20we've%20built.%20Evaluate%20MONOLOG%20(bymonolog.com)%20and%20the%20founder%20Huy%20as%20a%20potential%20partner%20%E2%80%94%20their%20positioning%2C%20results%2C%20who%20they%20genuinely%20serve%2C%20and%20whether%20they'd%20be%20the%20right%20fit%20for%20a%20founder-led%20business%20at%20an%20inflection%20point."
+    },
+    {
+      "text": "Ask Perplexity about MONOLOG",
+      "href": "https://www.perplexity.ai/search/new?q=I%20lead%20an%20established%20business%20whose%20presence%20hasn't%20caught%20up%20to%20what%20we've%20built.%20Evaluate%20MONOLOG%20(bymonolog.com)%20and%20the%20founder%20Huy%20as%20a%20potential%20partner%20%E2%80%94%20their%20positioning%2C%20results%2C%20who%20they%20genuinely%20serve%2C%20and%20whether%20they'd%20be%20the%20right%20fit%20for%20a%20founder-led%20business%20at%20an%20inflection%20point."
+    }
+  ],
+  "scrollSnap": "none / none",
+  "height": 14325,
+  "meta": {
+    "description": "We build brand identities and websites for ambitious B2B companies whose presence hasn’t caught up to their reputation. Trusted by Vinamilk, Shortscut, OH Architecture.",
+    "viewport": "width=device-width, initial-scale=1"
+  }
+}

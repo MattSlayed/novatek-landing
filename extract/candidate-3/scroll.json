@@ -1,0 +1,926 @@
+[
+  {
+    "y": 0,
+    "visible": [
+      {
+        "t": "video",
+        "text": "",
+        "y": 635,
+        "op": "1",
+        "tf": "matrix(1.05, 0, 0, 1.05, 0, 0)"
+      },
+      {
+        "t": "h1",
+        "text": "Websites\nand identities\nthat reflect\nyour ambition",
+        "y": 132,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "",
+        "y": 487,
+        "op": "1",
+        "tf": "matrix(1.0112, 0, 0, 1.0112, 0, -150)"
+      },
+      {
+        "t": "img",
+        "text": "",
+        "y": 491,
+        "op": "1",
+        "tf": "matrix(1, 0, 0, 1, 0, -150)"
+      },
+      {
+        "t": "img",
+        "text": "",
+        "y": 679,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "",
+        "y": 792,
+        "op": "1",
+        "tf": "none"
+      }
+    ],
+    "scrollY": 0
+  },
+  {
+    "y": 900,
+    "visible": [
+      {
+        "t": "video",
+        "text": "",
+        "y": 635,
+        "op": "1",
+        "tf": "matrix(1.05, 0, 0, 1.05, 0, 0)"
+      },
+      {
+        "t": "img",
+        "text": "",
+        "y": -264,
+        "op": "1",
+        "tf": "matrix(1, 0, 0, 1, 0, -5.3055)"
+      },
+      {
+        "t": "img",
+        "text": "",
+        "y": -264,
+        "op": "1",
+        "tf": "matrix(1, 0, 0, 1, 0, -5.3055)"
+      },
+      {
+        "t": "img",
+        "text": "Vinamilk logo",
+        "y": 434,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Moc Chau Creamery logo",
+        "y": 434,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "University of Sydney logo",
+        "y": 434,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "OH Architecture logo",
+        "y": 434,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Shortscut logo",
+        "y": 681,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Supersolid Agency logo",
+        "y": 681,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "SLIK Agency logo",
+        "y": 681,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Mammoth Murals logo",
+        "y": 681,
+        "op": "1",
+        "tf": "none"
+      }
+    ],
+    "scrollY": 900
+  },
+  {
+    "y": 1800,
+    "visible": [
+      {
+        "t": "video",
+        "text": "",
+        "y": 635,
+        "op": "1",
+        "tf": "matrix(1.05, 0, 0, 1.05, 0, 0)"
+      },
+      {
+        "t": "img",
+        "text": "Shortscut logo",
+        "y": -219,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Supersolid Agency logo",
+        "y": -219,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "SLIK Agency logo",
+        "y": -219,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Mammoth Murals logo",
+        "y": -219,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Tuan Le",
+        "y": 860,
+        "op": "0",
+        "tf": "matrix(1, 0, 0, 1, 0, 44.375)"
+      },
+      {
+        "t": "img",
+        "text": "Andrew Tynes",
+        "y": 322,
+        "op": "1",
+        "tf": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      {
+        "t": "h2",
+        "text": "Great B2B founders deserve a\npresence as powerful ",
+        "y": 98,
+        "op": "1",
+        "tf": "none"
+      }
+    ],
+    "scrollY": 1800
+  },
+  {
+    "y": 2700,
+    "visible": [
+      {
+        "t": "video",
+        "text": "",
+        "y": 635,
+        "op": "1",
+        "tf": "matrix(1.05, 0, 0, 1.05, 0, 0)"
+      },
+      {
+        "t": "img",
+        "text": "Tuan Le",
+        "y": 377,
+        "op": "0",
+        "tf": "matrix(1, 0, 0, 1, 0, 44.375)"
+      },
+      {
+        "t": "h2",
+        "text": "Great B2B founders deserve a\npresence as powerful ",
+        "y": -386,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h2",
+        "text": "WE CLOSE‎‎‎‎‎ ‎",
+        "y": 499,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h2",
+        "text": "THAT GAP",
+        "y": 499,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "A picture of OH Architecture's project Sidney Hous",
+        "y": 392,
+        "op": "0",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Carton of Moc Chau Creamery UHT fresh plain milk o",
+        "y": 392,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Man with eyes closed wearing a blue and pink hoode",
+        "y": 392,
+        "op": "0",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Man flexing his muscles and smiling while standing",
+        "y": 392,
+        "op": "0",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Front facade of a building with a big mural",
+        "y": 392,
+        "op": "0",
+        "tf": "none"
+      }
+    ],
+    "scrollY": 2700
+  },
+  {
+    "y": 3600,
+    "visible": [
+      {
+        "t": "video",
+        "text": "",
+        "y": 635,
+        "op": "1",
+        "tf": "matrix(1.05, 0, 0, 1.05, 0, 0)"
+      },
+      {
+        "t": "h2",
+        "text": "WE CLOSE‎‎‎‎‎ ‎",
+        "y": 397,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h2",
+        "text": "THAT GAP",
+        "y": 397,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "A picture of OH Architecture's project Sidney Hous",
+        "y": 290,
+        "op": "0",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Carton of Moc Chau Creamery UHT fresh plain milk o",
+        "y": 290,
+        "op": "0",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Man with eyes closed wearing a blue and pink hoode",
+        "y": 290,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Man flexing his muscles and smiling while standing",
+        "y": 290,
+        "op": "0",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Front facade of a building with a big mural",
+        "y": 290,
+        "op": "0",
+        "tf": "none"
+      }
+    ],
+    "scrollY": 3600
+  },
+  {
+    "y": 4500,
+    "visible": [
+      {
+        "t": "video",
+        "text": "",
+        "y": 635,
+        "op": "1",
+        "tf": "matrix(1.05, 0, 0, 1.05, 0, 0)"
+      },
+      {
+        "t": "img",
+        "text": "OH Architecture",
+        "y": 194,
+        "op": "1",
+        "tf": "matrix(1.15, 0, 0, 1.15, 0, 0.186)"
+      },
+      {
+        "t": "video",
+        "text": "",
+        "y": 546,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h2",
+        "text": "OH Architecture",
+        "y": 264,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h3",
+        "text": "21%",
+        "y": 418,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Supersolid",
+        "y": 608,
+        "op": "1",
+        "tf": "matrix(1.15, 0, 0, 1.15, 0, -94.3309)"
+      },
+      {
+        "t": "h2",
+        "text": "Supersolid",
+        "y": 773,
+        "op": "1",
+        "tf": "none"
+      }
+    ],
+    "scrollY": 4500
+  },
+  {
+    "y": 5400,
+    "visible": [
+      {
+        "t": "video",
+        "text": "",
+        "y": 635,
+        "op": "1",
+        "tf": "matrix(1.05, 0, 0, 1.05, 0, 0)"
+      },
+      {
+        "t": "video",
+        "text": "",
+        "y": -354,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Supersolid",
+        "y": -125,
+        "op": "1",
+        "tf": "matrix(1.15, 0, 0, 1.15, 0, 72.9554)"
+      },
+      {
+        "t": "video",
+        "text": "",
+        "y": 154,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h3",
+        "text": "90%",
+        "y": 26,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Mammoth Murals",
+        "y": 289,
+        "op": "1",
+        "tf": "matrix(1.15, 0, 0, 1.15, 0, -21.5774)"
+      },
+      {
+        "t": "video",
+        "text": "",
+        "y": 662,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h2",
+        "text": "Mammoth Murals",
+        "y": 381,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h3",
+        "text": "$100K+",
+        "y": 557,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "HISS (University of Sydney)",
+        "y": 703,
+        "op": "1",
+        "tf": "matrix(1.15, 0, 0, 1.15, 0, -116.071)"
+      },
+      {
+        "t": "h2",
+        "text": "HISS (University of Sydney)",
+        "y": 889,
+        "op": "1",
+        "tf": "none"
+      }
+    ],
+    "scrollY": 5400
+  },
+  {
+    "y": 6300,
+    "visible": [
+      {
+        "t": "video",
+        "text": "",
+        "y": 635,
+        "op": "1",
+        "tf": "matrix(1.05, 0, 0, 1.05, 0, 0)"
+      },
+      {
+        "t": "img",
+        "text": "Mammoth Murals",
+        "y": -465,
+        "op": "1",
+        "tf": "matrix(1.15, 0, 0, 1.15, 0, 125)"
+      },
+      {
+        "t": "video",
+        "text": "",
+        "y": -238,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "HISS (University of Sydney)",
+        "y": -30,
+        "op": "1",
+        "tf": "matrix(1.15, 0, 0, 1.15, 0, 51.3393)"
+      },
+      {
+        "t": "video",
+        "text": "",
+        "y": 271,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h2",
+        "text": "HISS (University of Sydney)",
+        "y": -11,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h3",
+        "text": "15+",
+        "y": 165,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "SLIK",
+        "y": 384,
+        "op": "1",
+        "tf": "matrix(1.15, 0, 0, 1.15, 0, -43.2156)"
+      },
+      {
+        "t": "video",
+        "text": "",
+        "y": 779,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h2",
+        "text": "SLIK",
+        "y": 498,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Shortscut logo in white over a red-orange halftone",
+        "y": 810,
+        "op": "1",
+        "tf": "matrix(1.15, 0, 0, 1.15, 0, -125)"
+      }
+    ],
+    "scrollY": 6300
+  },
+  {
+    "y": 7200,
+    "visible": [
+      {
+        "t": "video",
+        "text": "",
+        "y": 635,
+        "op": "1",
+        "tf": "matrix(1.05, 0, 0, 1.05, 0, 0)"
+      },
+      {
+        "t": "img",
+        "text": "SLIK",
+        "y": -349,
+        "op": "1",
+        "tf": "matrix(1.15, 0, 0, 1.15, 0, 124.071)"
+      },
+      {
+        "t": "video",
+        "text": "",
+        "y": -121,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "Shortscut logo in white over a red-orange halftone",
+        "y": 65,
+        "op": "1",
+        "tf": "matrix(1.15, 0, 0, 1.15, 0, 29.5759)"
+      },
+      {
+        "t": "video",
+        "text": "",
+        "y": 387,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h2",
+        "text": "Shortscut",
+        "y": 106,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "",
+        "y": 697,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "",
+        "y": 697,
+        "op": "0",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "",
+        "y": 697,
+        "op": "0",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "",
+        "y": 697,
+        "op": "0",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "",
+        "y": 697,
+        "op": "0",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "",
+        "y": 697,
+        "op": "0",
+        "tf": "none"
+      }
+    ],
+    "scrollY": 7200
+  },
+  {
+    "y": 8100,
+    "visible": [
+      {
+        "t": "video",
+        "text": "",
+        "y": 635,
+        "op": "1",
+        "tf": "matrix(1.05, 0, 0, 1.05, 0, 0)"
+      },
+      {
+        "t": "img",
+        "text": "Johnny Hyde",
+        "y": 769,
+        "op": "0",
+        "tf": "matrix(1, 0, 0, 1, 0, 44.375)"
+      },
+      {
+        "t": "img",
+        "text": "Jonathon Shannon",
+        "y": 219,
+        "op": "1",
+        "tf": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      {
+        "t": "h2",
+        "text": "Brand Strategy",
+        "y": 12,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h2",
+        "text": "Visual Identity",
+        "y": 107,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h2",
+        "text": "Website Strategy",
+        "y": 202,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h2",
+        "text": "Website Design",
+        "y": 297,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h2",
+        "text": "Website Development",
+        "y": 392,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h2",
+        "text": "3D Development",
+        "y": 487,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "",
+        "y": -88,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "",
+        "y": -88,
+        "op": "0",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "",
+        "y": -88,
+        "op": "0",
+        "tf": "none"
+      }
+    ],
+    "scrollY": 8100
+  },
+  {
+    "y": 9000,
+    "visible": [
+      {
+        "t": "video",
+        "text": "",
+        "y": 635,
+        "op": "1",
+        "tf": "matrix(1.05, 0, 0, 1.05, 0, 0)"
+      },
+      {
+        "t": "h3",
+        "text": "We uncover your story",
+        "y": 141,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "video",
+        "text": "",
+        "y": 108,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h3",
+        "text": "We shape your digital presence",
+        "y": 527,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "video",
+        "text": "",
+        "y": 494,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "video",
+        "text": "",
+        "y": 880,
+        "op": "1",
+        "tf": "none"
+      }
+    ],
+    "scrollY": 9000
+  },
+  {
+    "y": 9900,
+    "visible": [
+      {
+        "t": "video",
+        "text": "",
+        "y": 635,
+        "op": "1",
+        "tf": "matrix(1.05, 0, 0, 1.05, 0, 0)"
+      },
+      {
+        "t": "h3",
+        "text": "We send it into the world",
+        "y": 13,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "video",
+        "text": "",
+        "y": -20,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h2",
+        "text": "Here's what you need to consider before partnering",
+        "y": 682,
+        "op": "1",
+        "tf": "none"
+      }
+    ],
+    "scrollY": 9900
+  },
+  {
+    "y": 10800,
+    "visible": [
+      {
+        "t": "video",
+        "text": "",
+        "y": 635,
+        "op": "1",
+        "tf": "matrix(1.05, 0, 0, 1.05, 0, 0)"
+      },
+      {
+        "t": "h3",
+        "text": "Who do you usually work with?",
+        "y": 60,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h3",
+        "text": "Who will actually be working on our project?",
+        "y": 117,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h3",
+        "text": "How long do your projects usually take?",
+        "y": 174,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h3",
+        "text": "How do you communicate and manage work?",
+        "y": 231,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h3",
+        "text": "What do you need to start working together?",
+        "y": 289,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h3",
+        "text": "What happens after launch?",
+        "y": 346,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h3",
+        "text": "Do we need a complete rebrand, or can we just rede",
+        "y": 403,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h3",
+        "text": "What is the project investment?",
+        "y": 460,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "img",
+        "text": "A headshot of Huy",
+        "y": 235,
+        "op": "1",
+        "tf": "none"
+      },
+      {
+        "t": "h2",
+        "text": "READY TO BUILD AN EXPERIENCE THAT MOVES PEOPLE?",
+        "y": 533,
+        "op": "1",
+        "tf": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      {
+        "t": "img",
+        "text": "A black and white image of the founder of the stud",
+        "y": 425,
+        "op": "1",
+        "tf": "matrix(1, 0, 0, 1, 0, -108.121)"
+      }
+    ],
+    "scrollY": 10800
+  },
+  {
+    "y": 11700,
+    "visible": [
+      {
+        "t": "video",
+        "text": "",
+        "y": 635,
+        "op": "1",
+        "tf": "matrix(1.05, 0, 0, 1.05, 0, 0)"
+      },
+      {
+        "t": "img",
+        "text": "A black and white image of the founder of the stud",
+        "y": -372,
+        "op": "1",
+        "tf": "matrix(1, 0, 0, 1, 0, -5.4203)"
+      }
+    ],
+    "scrollY": 11700
+  }
+]

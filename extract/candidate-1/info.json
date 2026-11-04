@@ -1,0 +1,358 @@
+{
+  "title": "Museos para el Siglo XXI",
+  "lang": "es",
+  "bodyBg": "rgb(255, 255, 255)",
+  "fonts": [
+    "Untitled Sans 400 normal",
+    "Untitled Sans 500 normal",
+    "Untitled Serif 400 normal"
+  ],
+  "topColours": [
+    [
+      "text:rgb(23, 22, 21)",
+      67
+    ],
+    [
+      "rgb(23, 22, 21)",
+      4
+    ],
+    [
+      "text:rgb(250, 250, 250)",
+      4
+    ]
+  ],
+  "h1": [
+    {
+      "tag": "h1",
+      "text": "Museos para el Siglo XXI",
+      "font": "Untitled Sans",
+      "size": "18px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "27px",
+      "color": "rgb(23, 22, 21)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        18,
+        -63,
+        468,
+        27
+      ]
+    },
+    {
+      "tag": "h1",
+      "text": "(MUSEOS PARA EL",
+      "font": "Untitled Sans",
+      "size": "104.4px",
+      "weight": "400",
+      "ls": "-7.398px",
+      "lh": "104.4px",
+      "color": "rgb(23, 22, 21)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        255,
+        254,
+        1049,
+        104
+      ]
+    },
+    {
+      "tag": "h1",
+      "text": "SIGLO XXI)",
+      "font": "Untitled Sans",
+      "size": "104.4px",
+      "weight": "400",
+      "ls": "-7.398px",
+      "lh": "104.4px",
+      "color": "rgb(23, 22, 21)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        255,
+        358,
+        1049,
+        104
+      ]
+    }
+  ],
+  "h2": [],
+  "h3": [],
+  "p": [
+    {
+      "tag": "p",
+      "text": "(Uruguay)",
+      "font": "Untitled Sans",
+      "size": "18px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "27px",
+      "color": "rgb(23, 22, 21)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        486,
+        18,
+        468,
+        27
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "Sobre Nosotros",
+      "font": "Untitled Sans",
+      "size": "18px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "27px",
+      "color": "rgb(23, 22, 21)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1286,
+        -63,
+        136,
+        27
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "© 2026",
+      "font": "Untitled Sans",
+      "size": "18px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "27px",
+      "color": "rgb(23, 22, 21)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        18,
+        936,
+        468,
+        27
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "arte Y educación (aYe) es una asociación civil sin fines de lucro cuyo objetivo principal es promover el arte contemporá",
+      "font": "Untitled Serif",
+      "size": "16px",
+      "weight": "400",
+      "ls": "normal",
+      "lh": "19.2px",
+      "color": "rgb(23, 22, 21)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        255,
+        734,
+        456,
+        96
+      ]
+    }
+  ],
+  "nav": [],
+  "buttons": [],
+  "sections": [
+    {
+      "tag": "section",
+      "cls": "fixed.top-0.left-0.h-dvh",
+      "id": "",
+      "top": 0,
+      "h": 900,
+      "bg": "rgba(0, 0, 0, 0)",
+      "headings": []
+    },
+    {
+      "tag": "section",
+      "cls": "slider-section",
+      "id": "",
+      "top": 0,
+      "h": 900,
+      "bg": "rgba(0, 0, 0, 0)",
+      "headings": []
+    }
+  ],
+  "sticky": [
+    {
+      "tag": "div",
+      "cls": "w-full.h-dvh.fixed.top-0",
+      "pos": "fixed",
+      "text": "100"
+    },
+    {
+      "tag": "section",
+      "cls": "fixed.top-0.left-0.h-dvh",
+      "pos": "fixed",
+      "text": ""
+    },
+    {
+      "tag": "div",
+      "cls": "fixed.h-dvh.md:h-screen.bg-transparent",
+      "pos": "fixed",
+      "text": "Museos para el Siglo XXI\n\n(Uruguay)\n\nSobre Nosotros\n\n© 2026"
+    },
+    {
+      "tag": "div",
+      "cls": "fixed.h-dvh.md:h-screen.grid",
+      "pos": "fixed",
+      "text": "(MUSEOS PARA EL\nSIGLO XXI)\n\narte Y educación (aYe) es una as"
+    },
+    {
+      "tag": "section",
+      "cls": "slider-section",
+      "pos": "fixed",
+      "text": "Próximamente\nPróximamente"
+    },
+    {
+      "tag": "div",
+      "cls": "fixed.bottom-0.mb-16.md:mb-4",
+      "pos": "fixed",
+      "text": ""
+    },
+    {
+      "tag": "div",
+      "cls": "hidden.md:block.fixed.bottom-0",
+      "pos": "fixed",
+      "text": "ES\n/\nEN"
+    }
+  ],
+  "animated": [
+    {
+      "tag": "div",
+      "cls": "card-wrapper",
+      "anim": "none",
+      "trans": "opacity 0.5s ease-in-out"
+    },
+    {
+      "tag": "h4",
+      "cls": "text-[1.125rem].md:text-2xl.-tracking-[0.053rem]",
+      "anim": "none",
+      "trans": "transform 0.5s ease-in-out"
+    },
+    {
+      "tag": "p",
+      "cls": "font-serif.text-[0.8889rem].leading-tight.pl-[0.1rem]",
+      "anim": "none",
+      "trans": "transform 0.5s ease-in-out"
+    },
+    {
+      "tag": "div",
+      "cls": "card-wrapper",
+      "anim": "none",
+      "trans": "opacity 0.5s ease-in-out"
+    },
+    {
+      "tag": "h4",
+      "cls": "text-[1.125rem].md:text-2xl.-tracking-[0.053rem]",
+      "anim": "none",
+      "trans": "transform 0.5s ease-in-out"
+    },
+    {
+      "tag": "p",
+      "cls": "font-serif.text-[0.8889rem].leading-tight.pl-[0.1rem]",
+      "anim": "none",
+      "trans": "transform 0.5s ease-in-out"
+    },
+    {
+      "tag": "div",
+      "cls": "card-wrapper.card-soon",
+      "anim": "none",
+      "trans": "opacity 0.5s ease-in-out"
+    },
+    {
+      "tag": "h4",
+      "cls": "text-[1.125rem].md:text-2xl.-tracking-[0.053rem]",
+      "anim": "none",
+      "trans": "transform 0.5s ease-in-out"
+    },
+    {
+      "tag": "p",
+      "cls": "font-serif.text-[0.8889rem].leading-tight.pl-[0.1rem]",
+      "anim": "none",
+      "trans": "transform 0.5s ease-in-out"
+    },
+    {
+      "tag": "div",
+      "cls": "card-wrapper.card-soon",
+      "anim": "none",
+      "trans": "opacity 0.5s ease-in-out"
+    },
+    {
+      "tag": "h4",
+      "cls": "text-[1.125rem].md:text-2xl.-tracking-[0.053rem]",
+      "anim": "none",
+      "trans": "transform 0.5s ease-in-out"
+    },
+    {
+      "tag": "p",
+      "cls": "font-serif.text-[0.8889rem].leading-tight.pl-[0.1rem]",
+      "anim": "none",
+      "trans": "transform 0.5s ease-in-out"
+    },
+    {
+      "tag": "div",
+      "cls": "progress-bar",
+      "anim": "none",
+      "trans": "translate 0.2s linear"
+    },
+    {
+      "tag": "div",
+      "cls": "mf-cursor.-hidden",
+      "anim": "none",
+      "trans": "opacity, color 0.3s, 0.4s ease, ease"
+    },
+    {
+      "tag": "div",
+      "cls": "mf-cursor-media-box",
+      "anim": "none",
+      "trans": "transform, opacity 0.35s, 0.2s ease, ease"
+    },
+    {
+      "tag": "div",
+      "cls": "mf-cursor-text",
+      "anim": "none",
+      "trans": "opacity, transform 0.4s, 0.3s ease, ease"
+    }
+  ],
+  "media": {
+    "img": 15,
+    "video": 0,
+    "canvas": 0,
+    "svg": 0,
+    "iframe": 0
+  },
+  "libs": [],
+  "cursor": "auto",
+  "customCursor": 1,
+  "links": [
+    {
+      "text": "Sobre Nosotros",
+      "href": "https://arteyeducacion.org/"
+    },
+    {
+      "text": "",
+      "href": "/resurgimiento-de-la-patria"
+    },
+    {
+      "text": "",
+      "href": "/recuerdo-de-la-isla-de-madera"
+    },
+    {
+      "text": "ES",
+      "href": "/"
+    },
+    {
+      "text": "EN",
+      "href": "/en"
+    }
+  ],
+  "scrollSnap": "none / none",
+  "height": 909,
+  "meta": {
+    "description": "Museos para el Siglo XXI de Arte y Educación.",
+    "viewport": "width=device-width, initial-scale=1"
+  }
+}

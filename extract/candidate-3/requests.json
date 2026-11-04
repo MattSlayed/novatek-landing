@@ -1,0 +1,10 @@
+{
+  "hosts": [
+    "bymonolog.com",
+    "cloud.umami.is",
+    "static.cloudflareinsights.com",
+    "byhuy.b-cdn.net",
+    "gateway.umami.is"
+  ],
+  "errors": []
+}

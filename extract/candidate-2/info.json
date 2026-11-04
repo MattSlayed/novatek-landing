@@ -1,0 +1,482 @@
+{
+  "title": "Mosby’s Files—American Modernist Architecture",
+  "lang": "en_US",
+  "bodyBg": "rgb(25, 25, 25)",
+  "fonts": [
+    "IBM Plex Mono 400 normal",
+    "Signifier 400 normal",
+    "Founders Grotesk 700 normal"
+  ],
+  "topColours": [
+    [
+      "text:rgb(255, 255, 255)",
+      100
+    ],
+    [
+      "text:rgb(253, 250, 247)",
+      98
+    ],
+    [
+      "text:rgb(0, 0, 0)",
+      17
+    ],
+    [
+      "text:rgb(30, 75, 215)",
+      12
+    ],
+    [
+      "text:rgb(215, 30, 30)",
+      12
+    ],
+    [
+      "rgb(30, 75, 215)",
+      11
+    ],
+    [
+      "rgb(215, 30, 30)",
+      11
+    ],
+    [
+      "rgb(88, 30, 112)",
+      9
+    ],
+    [
+      "text:rgb(88, 30, 112)",
+      8
+    ],
+    [
+      "rgb(255, 233, 39)",
+      8
+    ],
+    [
+      "text:rgb(255, 233, 39)",
+      8
+    ],
+    [
+      "rgb(0, 0, 0)",
+      8
+    ],
+    [
+      "text:rgb(12, 120, 102)",
+      4
+    ],
+    [
+      "rgb(12, 120, 102)",
+      3
+    ],
+    [
+      "rgba(25, 25, 25, 0.8)",
+      1
+    ],
+    [
+      "text:rgb(120, 122, 127)",
+      1
+    ]
+  ],
+  "h1": [
+    {
+      "tag": "h1",
+      "text": "AMERICAN MODERNISM",
+      "font": "Founders Grotesk",
+      "size": "144.06px",
+      "weight": "700",
+      "ls": "normal",
+      "lh": "115.248px",
+      "color": "rgb(253, 250, 247)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "uppercase",
+      "rect": [
+        205,
+        142,
+        1030,
+        115
+      ]
+    }
+  ],
+  "h2": [],
+  "h3": [],
+  "p": [
+    {
+      "tag": "p",
+      "text": "A project exploring early 20th-century American architects, contrasting them with European Modernism and revealing a dis",
+      "font": "Signifier",
+      "size": "20px",
+      "weight": "400",
+      "ls": "normal",
+      "lh": "28px",
+      "color": "rgb(120, 122, 127)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        320,
+        278,
+        800,
+        84
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "The movement that broke from European convention before Europe finished writing its manifesto. Buildings designed around",
+      "font": "IBM Plex Mono",
+      "size": "12px",
+      "weight": "400",
+      "ls": "normal",
+      "lh": "16.8px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        165,
+        564,
+        765,
+        50
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "Where function alone was never enough. These architects pushed form, material, and structure into territory that was con",
+      "font": "IBM Plex Mono",
+      "size": "12px",
+      "weight": "400",
+      "ls": "normal",
+      "lh": "16.8px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        165,
+        624,
+        765,
+        67
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "Architecture at the scale of civilization — civic, institutional, and built to outlast the moment. These buildings draw ",
+      "font": "IBM Plex Mono",
+      "size": "12px",
+      "weight": "400",
+      "ls": "normal",
+      "lh": "16.8px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        165,
+        684,
+        765,
+        50
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "Architecture shaped by place, culture, and continuity rather than formal invention alone. Mix of tradition and modernity",
+      "font": "IBM Plex Mono",
+      "size": "12px",
+      "weight": "400",
+      "ls": "normal",
+      "lh": "16.8px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        165,
+        744,
+        765,
+        67
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "CRAFTED WITH 🤍 BY TUBIK STUDIO",
+      "font": "IBM Plex Mono",
+      "size": "12px",
+      "weight": "400",
+      "ls": "normal",
+      "lh": "15px",
+      "color": "rgb(253, 250, 247)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "uppercase",
+      "rect": [
+        985,
+        1321,
+        225,
+        15
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "tag": "a",
+      "text": "",
+      "font": "Signifier",
+      "size": "16px",
+      "weight": "400",
+      "ls": "normal",
+      "lh": "20px",
+      "color": "rgb(253, 250, 247)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        647,
+        19,
+        146,
+        22
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "About",
+      "font": "IBM Plex Mono",
+      "size": "16px",
+      "weight": "400",
+      "ls": "normal",
+      "lh": "32px",
+      "color": "rgb(253, 250, 247)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "rect": [
+        1358,
+        14,
+        48,
+        32
+      ]
+    }
+  ],
+  "buttons": [],
+  "sections": [
+    {
+      "tag": "header",
+      "cls": "the-header",
+      "id": "",
+      "top": 0,
+      "h": 61,
+      "bg": "rgba(25, 25, 25, 0.8)",
+      "headings": []
+    },
+    {
+      "tag": "section",
+      "cls": "section-hero.container",
+      "id": "hero",
+      "top": 0,
+      "h": 900,
+      "bg": "rgba(0, 0, 0, 0)",
+      "headings": [
+        "AMERICAN MODERNISM"
+      ]
+    },
+    {
+      "tag": "div",
+      "cls": "page-home__stack.container",
+      "id": "",
+      "top": 900,
+      "h": 504,
+      "bg": "rgba(0, 0, 0, 0)",
+      "headings": []
+    }
+  ],
+  "sticky": [
+    {
+      "tag": "header",
+      "cls": "the-header",
+      "pos": "fixed",
+      "text": "About"
+    }
+  ],
+  "animated": [
+    {
+      "tag": "a",
+      "cls": "the-nav__item",
+      "anim": "none",
+      "trans": "opacity 0.65s ease"
+    },
+    {
+      "tag": "div",
+      "cls": "stack-group",
+      "anim": "none",
+      "trans": "transform, height 0.65s, 0.65s cubic-bezier(0.33, 1, 0.68, 1), cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "stack-cover",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "svg",
+      "cls": "iconify.iconify--custom",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "a",
+      "cls": "stack-page",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "a",
+      "cls": "stack-page",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "stack-group",
+      "anim": "none",
+      "trans": "transform, height 0.65s, 0.65s cubic-bezier(0.33, 1, 0.68, 1), cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "stack-cover",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "svg",
+      "cls": "iconify.iconify--custom",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "a",
+      "cls": "stack-page",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "stack-group",
+      "anim": "none",
+      "trans": "transform, height 0.65s, 0.65s cubic-bezier(0.33, 1, 0.68, 1), cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "stack-cover",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "svg",
+      "cls": "iconify.iconify--custom",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "a",
+      "cls": "stack-page",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "a",
+      "cls": "stack-page",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "a",
+      "cls": "stack-page",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "stack-group",
+      "anim": "none",
+      "trans": "transform, height 0.65s, 0.65s cubic-bezier(0.33, 1, 0.68, 1), cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "stack-cover.is-unfolded",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "svg",
+      "cls": "iconify.iconify--custom",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "div",
+      "cls": "the-footer",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "a",
+      "cls": "stack-page",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "tag": "a",
+      "cls": "stack-page",
+      "anim": "none",
+      "trans": "transform 0.65s cubic-bezier(0.33, 1, 0.68, 1)"
+    }
+  ],
+  "media": {
+    "img": 9,
+    "video": 0,
+    "canvas": 0,
+    "svg": 21,
+    "iframe": 0
+  },
+  "libs": [],
+  "cursor": "auto",
+  "customCursor": 0,
+  "links": [
+    {
+      "text": "",
+      "href": "#hero"
+    },
+    {
+      "text": "About",
+      "href": "/about"
+    },
+    {
+      "text": "Frank Lloyd Wright\nIrving Gill",
+      "href": "/cases/frank-lloyd-wright"
+    },
+    {
+      "text": "Frank Lloyd Wright\nIrving Gill",
+      "href": "/cases/irving-gill"
+    },
+    {
+      "text": "Frank Gehry",
+      "href": "/cases/frank-gehry"
+    },
+    {
+      "text": "Louis Kahn\nI. M. Pei\nPaul Rudolph",
+      "href": "/cases/louis-kahn"
+    },
+    {
+      "text": "Louis Kahn\nI. M. Pei\nPaul Rudolph",
+      "href": "/cases/i-m-pei"
+    },
+    {
+      "text": "Louis Kahn\nI. M. Pei\nPaul Rudolph",
+      "href": "/cases/paul-rudolph"
+    },
+    {
+      "text": "CRAFTED WITH 🤍 BY TUBIK STUDIO",
+      "href": "https://tubikstudio.com"
+    },
+    {
+      "text": "Mary Colter\nLouis Sullivan",
+      "href": "/cases/mary-colter"
+    },
+    {
+      "text": "Mary Colter\nLouis Sullivan",
+      "href": "/cases/louis-sullivan"
+    }
+  ],
+  "scrollSnap": "none / none",
+  "height": 1404,
+  "meta": {
+    "description": "A research-driven archive exploring the architects who built American Modernism—independently of Europe, and on their own radical terms.",
+    "viewport": "width=device-width, initial-scale=1"
+  }
+}

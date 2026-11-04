@@ -1,0 +1,10 @@
+{
+  "hosts": [
+    "www.mosbyfiles.com",
+    "a.storyblok.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "api.storyblok.com"
+  ],
+  "errors": []
+}
