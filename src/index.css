@@ -189,3 +189,12 @@
   .band.is-read .band-line { animation: none; }
   .result { transition: none; }
 }
+
+/* v3: the strata open in place with the reference's ease; the open one is the accent. */
+.stratum-body[data-state="open"] { animation: accordion-down 0.65s cubic-bezier(0.33, 1, 0.68, 1); }
+.stratum-body[data-state="closed"] { animation: accordion-up 0.65s cubic-bezier(0.33, 1, 0.68, 1); }
+.stratum[data-open="true"] { background-color: var(--surface); }
+@media (prefers-reduced-motion: reduce) {
+  .stratum-body[data-state="open"], .stratum-body[data-state="closed"] { animation: none; }
+  .stratum-name { transition: none; }
+}

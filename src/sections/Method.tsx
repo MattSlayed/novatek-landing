@@ -20,10 +20,10 @@ export function Method() {
   const canConfirm = who.trim().length > 1
 
   return (
-    <section id="method" className="relative scroll-mt-6 px-4 py-24 md:px-[18px] md:py-32" aria-labelledby="method-h">
+    <section id="method" className="relative scroll-mt-16 px-4 py-20 md:px-[18px] md:py-28" aria-labelledby="method-h">
       <Reveal className="grid grid-cols-12 gap-x-6 gap-y-12">
         <div className="col-span-12 md:col-span-5">
-          <h2 id="method-h" className="m-0 text-[clamp(34px,4.4vw,68px)] text-ink">{method.heading}</h2>
+          <h2 id="method-h" className="m-0 text-[clamp(28px,3.2vw,44px)] leading-none font-bold tracking-[-0.04em] text-ink">{method.heading}</h2>
           <p className="m-0 mt-8 max-w-[30ch] text-[17px] leading-[1.5] text-ink">{method.text}</p>
         </div>
 

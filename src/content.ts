@@ -9,6 +9,8 @@ export const whatThisIs = "Same human, new tool. A method for working with AI ag
 export const email = "info@novatekllc.co.za"
 
 export const hero = {
+  title: "Same human. New tool.",
+  deck: "Tools change every decade. The people holding them do not. Cut through the record and the same four things are in every layer.",
   sentence: "Tools change every decade. The people holding them do not.",
   action: { label: "Read the method", href: "#method" },
   corner: "A method for working with AI agents",
@@ -18,6 +20,51 @@ export const hero = {
     { label: "Sources", href: "#sources" },
   ],
 }
+
+/**
+ * The strata: four human constants, each with one dated, sourced instance
+ * from the record and the 2026 reading. Historical facts NEED MATTHEW'S
+ * CONFIRMATION; sources are given for checking. "Control" stands in for the
+ * brief's "tribalism", for which no fact could be stood behind.
+ */
+export const strata = [
+  {
+    id: "ambition",
+    name: "Ambition",
+    span: "1455 → 2026",
+    record: "Gutenberg's press is at work in Mainz by about 1455. By 1500 presses stand in more than two hundred European towns, and the Nova Reperta plate shows the trade as it had become: compositors, an inker, a pressman, a proof-reader, a boy carrying sheets.",
+    source: "Febvre and Martin, The Coming of the Book; Nova Reperta, plate 4, c. 1600",
+    reading: "Agents read the whole record in an afternoon. The ambition to do it is older than the press. The decision about what to do with it is still a person's.",
+    picture: "band",
+  },
+  {
+    id: "fear",
+    name: "Fear",
+    span: "1492 → 2026",
+    record: "In 1492 Johannes Trithemius writes In Praise of Scribes: monks should keep copying by hand, because the new press cannot be trusted with the word. He has it printed.",
+    source: "Trithemius, De laude scriptorum, 1492, printed at Mainz 1494",
+    reading: "Every new tool gets the same speech. The fear is human; the tool is incidental. The gate exists so the fear has somewhere to go: nothing is written without a name.",
+    picture: "chip",
+  },
+  {
+    id: "control",
+    name: "Control",
+    span: "1335 → 2026",
+    record: "Mechanical clocks strike the hours from European towers in the fourteenth century. For the first time the working day can be counted by someone other than the worker.",
+    source: "E. P. Thompson, Time, Work-Discipline and Industrial Capitalism, 1967; Nova Reperta, plate 5, c. 1600",
+    reading: "An agent carries the obligations a colleague carries: a record of what it did, and a status a person can check. Autonomy is set task by task, not switched on.",
+    picture: "strip-clock",
+  },
+  {
+    id: "meaning",
+    name: "Meaning",
+    span: "1501 → 2026",
+    record: "On the astrolabe plate Vespucci measures the Southern Cross, and the engraver prints beside him the lines of Dante's Purgatorio that were read as a prophecy of those four stars. The new instrument is understood through the old text.",
+    source: "Nova Reperta, plate 18, c. 1600, quoting Purgatorio I, 22–24",
+    reading: "A new reading is believed when it fits a story people already hold. So every claim an agent makes carries its source, and a person reads it before it stands.",
+    picture: "strip-astrolabe",
+  },
+] as const
 
 export const thesis = {
   heading: "New tool. Same human.",

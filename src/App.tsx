@@ -1,27 +1,21 @@
 import { TooltipProvider } from "@/components/ui/tooltip"
+import { Header } from "@/sections/Header"
 import { Hero } from "@/sections/Hero"
-import { Thesis } from "@/sections/Thesis"
+import { Strata } from "@/sections/Strata"
 import { Method } from "@/sections/Method"
-import { Band } from "@/sections/Band"
-import { Showcase } from "@/sections/Showcase"
-import { Sources } from "@/sections/Sources"
-import { Cta } from "@/sections/Cta"
 import { Footer } from "@/sections/Footer"
 
 export default function App() {
   return (
     <TooltipProvider>
-      <a href="#thesis" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-ink focus:px-4 focus:py-2 focus:text-ground focus:ring-3 focus:ring-rubric">
+      <a href="#strata-h" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-ink focus:px-4 focus:py-2 focus:text-ground focus:ring-3 focus:ring-rubric-glow">
         Skip to content
       </a>
+      <Header />
       <Hero />
       <main>
-        <Thesis />
+        <Strata />
         <Method />
-        <Band />
-        <Showcase />
-        <Sources />
-        <Cta />
       </main>
       <Footer />
     </TooltipProvider>
